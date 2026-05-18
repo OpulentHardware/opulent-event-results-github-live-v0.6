@@ -1,0 +1,13 @@
+{
+  "name": "opulent-event-results-live",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch:sfr": "node scripts/fetch-sfr-results.js",
+    "serve": "python3 -m http.server 8080"
+  },
+  "dependencies": {
+    "playwright": "^1.46.0"
+  }
+}

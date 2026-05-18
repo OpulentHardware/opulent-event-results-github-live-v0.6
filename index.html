@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Event Results | OPULENT HARDWARE</title>
+
+  <link rel="stylesheet" href="assets/style.css?v=github-live-006" />
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="brand-logo">EVENT RESULTS</h1>
+
+      <div class="sub-title">
+        POWERED BY OPULENT HARDWARE
+      </div>
+
+      <section class="upload-card" aria-labelledby="uploadTitle">
+        <div>
+          <h2 id="uploadTitle">Live results ingest</h2>
+          <p>Loads GitHub Pages event JSON generated from the SFR live results source. Excel upload remains available as a local fallback.</p>
+        </div>
+
+        <div class="ingest-actions">
+          <button id="liveButton" class="file-picker action-button" type="button">
+            <span>FETCH LIVE</span>
+          </button>
+
+          <label class="file-picker secondary-picker">
+            <input id="fileInput" type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" />
+            <span>CHOOSE EXCEL</span>
+          </label>
+        </div>
+      </section>
+
+      <div class="event-meta">
+        <div class="meta-pill">
+          <span class="meta-copy">
+            <span class="meta-label">EVENT</span>
+            <span id="eventTitle" class="meta-value">Loading live data...</span>
+          </span>
+        </div>
+
+        <div class="meta-pill">
+          <span class="meta-copy">
+            <span class="meta-label">DATE</span>
+            <span id="eventDate" class="meta-value">—</span>
+          </span>
+        </div>
+
+        <div class="meta-pill">
+          <span class="meta-copy">
+            <span class="meta-label">PARTICIPANTS</span>
+            <span id="participantCount" class="meta-value">—</span>
+          </span>
+        </div>
+
+        <div class="meta-pill">
+          <span class="meta-copy">
+            <span class="meta-label">UPDATED</span>
+            <span id="updatedAt" class="meta-value">—</span>
+          </span>
+        </div>
+      </div>
+
+      <div class="local-help">Open the hamburger dock beside the results card to switch Overall, PAX, Class, or Compare.</div>
+    </header>
+
+    <div id="status" class="status-card">
+      Loading live event data...
+    </div>
+
+    <main id="rankings"></main>
+
+    <footer>
+      <div class="footer-kicker">
+        Unofficial Live Results Visualization
+      </div>
+
+      <div class="disclaimer">
+        Unofficial visual treatment of SFR Solo day-of-event results. Driver times,
+        class results, PAX results, and run histories are rendered from the linked
+        live results source or from a selected local Excel workbook. For official results,
+        final awards, penalties, reruns, and scoring corrections, reference the source page
+        and confirm with SFR SCCA.
+      </div>
+
+      <div class="footer-links">
+        <a class="footer-link" href="https://live.sfrautox.com/#N" target="_blank" rel="noopener">SOURCE DATA</a>
+        <span class="footer-separator">/</span>
+        <a class="footer-link" href="https://www.instagram.com/opulenthardware" target="_blank" rel="noopener">INSTAGRAM / @OPULENTHARDWARE</a>
+      </div>
+    </footer>
+  </div>
+
+  <button class="diag-trigger" onclick="toggleDiag()" type="button">
+    DIAG
+  </button>
+
+  <aside id="diag">
+    <h2>Diagnostics</h2>
+    <pre id="diagText">Waiting for live data...</pre>
+    <button class="close-btn" onclick="toggleDiag()" type="button">CLOSE PANEL</button>
+  </aside>
+
+  <script src="assets/app.js?v=github-live-006"></script>
+</body>
+</html>
