@@ -85,6 +85,22 @@ function cleanClassCode(value) {
     .toUpperCase();
 }
 
+function preferClassCode(existingClass, incomingClass) {
+  const existing = cleanClassCode(existingClass);
+  const incoming = cleanClassCode(incomingClass);
+
+  if (!existing) return incoming;
+  if (!incoming) return existing;
+
+  // Prefer the more specific class string.
+  // Examples:
+  // ST2GST is more useful than ST2.
+  // NCS is more useful than N.
+  if (incoming.length > existing.length) return incoming;
+
+  return existing;
+}
+
 function normalizeDriverRow(row = {}) {
   const rawDriver = row.driver || row.name || '';
   const driverText = String(rawDriver || '').trim();
@@ -517,7 +533,15 @@ function buildDriverIndex(data) {
 
   function rowKey(row = {}) {
     const normalized = normalizeDriverRow(row);
-    return normalizeKey(`${normalized.driver}|${normalized.number || ''}|${normalized.cls || normalized.class || ''}`);
+
+    // Primary merge key is driver + number.
+    // This prevents duplicate compare entries when one data source says ST2
+    // and another says ST2GST for the same driver/car/number.
+    if (normalized.driver && normalized.number) {
+      return normalizeKey(`${normalized.driver}|${normalized.number}`);
+    }
+
+    return normalizeKey(`${normalized.driver}|${normalized.cls || normalized.class || ''}`);
   }
 
   function upsertDriver(row = {}) {
@@ -529,27 +553,76 @@ function buildDriverIndex(data) {
 
     const existing = map.get(key) || {};
 
+    const preferredClass = preferClassCode(
+      existing.cls || existing.class,
+      normalized.cls || normalized.class
+    );
+
+    const preferredNumber = normalized.number || existing.number || '';
+
     const merged = normalizeDriverRow({
       ...existing,
       ...normalized,
+
       driver: normalized.driver || existing.driver || '',
-      cls: normalized.cls || normalized.class || existing.cls || existing.class || '',
-      class: normalized.class || normalized.cls || existing.class || existing.cls || '',
-      number: normalized.number || existing.number || '',
+      cls: preferredClass,
+      class: preferredClass,
+      number: preferredNumber,
       car: normalized.car || existing.car || '',
 
-      bestRaw: normalized.bestRaw ?? normalized.rawTime ?? existing.bestRaw ?? existing.rawTime ?? null,
-      bestPax: normalized.bestPax ?? normalized.indexedTime ?? existing.bestPax ?? existing.indexedTime ?? null,
+      bestRaw:
+        normalized.bestRaw ??
+        normalized.rawTime ??
+        existing.bestRaw ??
+        existing.rawTime ??
+        null,
 
-      rawTime: normalized.rawTime ?? normalized.bestRaw ?? existing.rawTime ?? existing.bestRaw ?? null,
-      indexedTime: normalized.indexedTime ?? normalized.bestPax ?? existing.indexedTime ?? existing.bestPax ?? null,
+      bestPax:
+        normalized.bestPax ??
+        normalized.indexedTime ??
+        existing.bestPax ??
+        existing.indexedTime ??
+        null,
 
-      overallRank: normalized.overallRank ?? existing.overallRank ?? null,
-      paxRank: normalized.paxRank ?? existing.paxRank ?? null,
-      classPosition: normalized.classPosition ?? normalized.position ?? existing.classPosition ?? existing.position ?? null,
+      rawTime:
+        normalized.rawTime ??
+        normalized.bestRaw ??
+        existing.rawTime ??
+        existing.bestRaw ??
+        null,
 
-      runs: normalized.runs?.length ? normalized.runs : existing.runs || []
+      indexedTime:
+        normalized.indexedTime ??
+        normalized.bestPax ??
+        existing.indexedTime ??
+        existing.bestPax ??
+        null,
+
+      overallRank:
+        normalized.overallRank ??
+        existing.overallRank ??
+        null,
+
+      paxRank:
+        normalized.paxRank ??
+        existing.paxRank ??
+        null,
+
+      classPosition:
+        normalized.classPosition ??
+        normalized.position ??
+        existing.classPosition ??
+        existing.position ??
+        null,
+
+      runs:
+        normalized.runs?.length
+          ? normalized.runs
+          : existing.runs || []
     });
+
+    merged.classNumber = [merged.cls || merged.class, merged.number].filter(Boolean).join(' ');
+    merged.label = `${merged.driver}${merged.classNumber ? ` — ${merged.classNumber}` : ''}`;
 
     map.set(key, merged);
     return merged;
@@ -624,19 +697,19 @@ function buildDriverIndex(data) {
 
 function findDriverInMap(map, row) {
   const normalized = normalizeDriverRow(row);
-  const rowClass = normalized.cls || normalized.class || '';
 
   const keys = [
-    `${normalized.driver}|${normalized.number || ''}|${rowClass}`,
     `${normalized.driver}|${normalized.number || ''}`,
+    `${normalized.driver}|${normalized.number || ''}|${normalized.cls || normalized.class || ''}`,
     `${normalized.driver}`
   ].map(normalizeKey);
 
   return Array.from(map.values()).find(candidate => {
     const candidateNormalized = normalizeDriverRow(candidate);
+
     const candidateKeys = [
-      `${candidateNormalized.driver}|${candidateNormalized.number || ''}|${candidateNormalized.cls || candidateNormalized.class || ''}`,
       `${candidateNormalized.driver}|${candidateNormalized.number || ''}`,
+      `${candidateNormalized.driver}|${candidateNormalized.number || ''}|${candidateNormalized.cls || candidateNormalized.class || ''}`,
       `${candidateNormalized.driver}`
     ].map(normalizeKey);
 
