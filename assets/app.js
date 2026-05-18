@@ -295,12 +295,8 @@ function renderViewDock() {
           CLASS
         </button>
 
-        <button data-view-button="compare" class="view-button ${state.view === 'compare' ? 'active' : ''}" type="button">
-          COMPARE
-        </button>
-
         ${state.view === 'class' ? `
-          <select class="view-dock-select" data-class-filter>
+          <select class="view-dock-select class-under-active" data-class-filter>
             <option value="all" ${state.selectedClass === 'all' ? 'selected' : ''}>ALL CLASSES</option>
             ${order.map(cls => `
               <option value="${escapeHtml(cls)}" ${state.selectedClass === cls ? 'selected' : ''}>
@@ -309,6 +305,10 @@ function renderViewDock() {
             `).join('')}
           </select>
         ` : ''}
+
+        <button data-view-button="compare" class="view-button ${state.view === 'compare' ? 'active' : ''}" type="button">
+          COMPARE
+        </button>
 
         <button data-refresh-inline class="view-button toolbar-action" type="button">
           FETCH LIVE
