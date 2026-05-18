@@ -6,7 +6,7 @@
 
   <title>Event Results | OPULENT HARDWARE</title>
 
-  <link rel="stylesheet" href="./assets/style.css?v=hamburger-diag-005" />
+  <link rel="stylesheet" href="./assets/style.css?v=header-dock-diag-007" />
 </head>
 
 <body>
@@ -18,31 +18,28 @@
         POWERED BY OPULENT HARDWARE
       </div>
 
-      <section class="ingest-card">
-        <div class="ingest-copy">
-          <div class="ingest-title">LIVE RESULTS INGEST</div>
-
-          <div class="ingest-description">
-            Loads GitHub Pages event JSON generated from the SFR live results source.
+      <section class="upload-card" aria-labelledby="uploadTitle">
+        <div class="upload-copy">
+          <h2 id="uploadTitle">Live Results Ingest</h2>
+          <p>
+            Loads the GitHub Pages event JSON generated from the SFR live results source.
             Excel upload remains available as a local fallback.
-          </div>
+          </p>
         </div>
 
         <div class="ingest-actions">
-          <button id="fetchLiveButton" class="primary-action" type="button">
-            FETCH LIVE
+          <button id="liveButton" class="file-picker action-button" type="button">
+            <span>FETCH LIVE</span>
           </button>
 
-          <label class="secondary-action" for="excelInput">
-            CHOOSE EXCEL
+          <label class="file-picker secondary-picker">
+            <input
+              id="fileInput"
+              type="file"
+              accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            />
+            <span>CHOOSE EXCEL</span>
           </label>
-
-          <input
-            id="excelInput"
-            class="file-input"
-            type="file"
-            accept=".xlsx,.xls"
-          />
         </div>
       </section>
 
@@ -50,7 +47,7 @@
         <div class="meta-pill">
           <span class="meta-copy">
             <span class="meta-label">EVENT</span>
-            <span id="eventTitle" class="meta-value">Loading event...</span>
+            <span id="eventTitle" class="meta-value">Loading live data...</span>
           </span>
         </div>
 
@@ -76,13 +73,13 @@
         </div>
       </div>
 
-      <div class="helper-note">
-        Open the hamburger menu near the DIAG bubble to switch Overall, PAX, Class, or Compare.
+      <div class="local-help">
+        Use the hamburger menu beside the results to switch Overall, PAX, Class, Compare, or Diagnostics.
       </div>
     </header>
 
-    <div id="status" class="status-card hidden">
-      Loading event data...
+    <div id="status" class="status-card">
+      Loading live event data...
     </div>
 
     <main id="rankings"></main>
@@ -95,49 +92,25 @@
       <div class="disclaimer">
         Unofficial visual treatment of SFR Solo day-of-event results. Driver times,
         class results, PAX results, and run histories are rendered from the linked
-        live results source or from a locally selected Excel workbook. For official
-        results, final awards, penalties, reruns, and scoring corrections, reference
-        the source page and confirm with SFR SCCA.
+        live results source or from a selected local Excel workbook. For official results,
+        final awards, penalties, reruns, and scoring corrections, reference the source page
+        and confirm with SFR SCCA.
       </div>
 
       <div class="footer-links">
-        <a
-          class="footer-link"
-          href="https://live.sfrautox.com/#N"
-          target="_blank"
-          rel="noopener"
-        >
-          SOURCE DATA
-        </a>
-
+        <a class="footer-link" href="https://live.sfrautox.com/#N" target="_blank" rel="noopener">SOURCE DATA</a>
         <span class="footer-separator">/</span>
-
-        <a
-          class="footer-link"
-          href="https://www.instagram.com/opulenthardware"
-          target="_blank"
-          rel="noopener"
-        >
-          INSTAGRAM / @OPULENTHARDWARE
-        </a>
+        <a class="footer-link" href="https://www.instagram.com/opulenthardware" target="_blank" rel="noopener">INSTAGRAM / @OPULENTHARDWARE</a>
       </div>
     </footer>
   </div>
 
-  <button class="diag-trigger" onclick="toggleDiag()" type="button">
-    DIAG
-  </button>
-
   <aside id="diag">
     <h2>Diagnostics</h2>
-
-    <pre id="diagText">Waiting for event data...</pre>
-
-    <button class="close-btn" onclick="toggleDiag()" type="button">
-      CLOSE PANEL
-    </button>
+    <pre id="diagText">Waiting for live data...</pre>
+    <button class="close-btn" onclick="toggleDiag()" type="button">CLOSE PANEL</button>
   </aside>
 
-  <script src="./assets/app.js?v=hamburger-diag-005"></script>
+  <script src="./assets/app.js?v=header-dock-diag-007"></script>
 </body>
 </html>
