@@ -162,12 +162,30 @@ function isNoise(line) {
 }
 
 function isRunLine(line) {
-  const cleaned = cleanLine(line);
+  const cleaned = cleanLine(line).toUpperCase();
 
-  return (
-    /^\d{2,3}\.\d{3}(\s+\+\d+)?$/i.test(cleaned) ||
-    /^(DNF|DNS|RRN|OFF|DSQ)$/i.test(cleaned)
-  );
+  if (!cleaned) return false;
+
+  // Status-only runs.
+  if (/^(DNF|DNS|RRN|OFF|DSQ|WD)$/.test(cleaned)) return true;
+
+  // Normal timed run with optional cone penalty.
+  // Examples: 56.913, 56.913 +1, 56.913 +2
+  if (/^\d{2,3}\.\d{3}(\s+\+\d+)?$/.test(cleaned)) return true;
+
+  // Timed run with status.
+  // Examples: 56.913 DNF, 56.913 RRN, 56.913 +1 DNF, 56.913 +2 RRN
+  if (/^\d{2,3}\.\d{3}(\s+\+\d+)?\s+(DNF|DNS|RRN|OFF|DSQ|WD)$/.test(cleaned)) return true;
+
+  // Status followed by time.
+  // Examples: DNF 56.913, RRN 56.913, RRN 56.913 +1
+  if (/^(DNF|DNS|RRN|OFF|DSQ|WD)\s+\d{2,3}\.\d{3}(\s+\+\d+)?$/.test(cleaned)) return true;
+
+  // Some exports may use punctuation or parentheses around status.
+  // Examples: 56.913 (DNF), 56.913 +1 (RRN), 56.913 - RRN
+  if (/^\d{2,3}\.\d{3}(\s+\+\d+)?\s*[-–—]?\s*\(?(DNF|DNS|RRN|OFF|DSQ|WD)\)?$/.test(cleaned)) return true;
+
+  return false;
 }
 
 function parseRunLine(line) {
