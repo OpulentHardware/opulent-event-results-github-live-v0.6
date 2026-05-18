@@ -498,9 +498,11 @@ select {
 
  .view-dock {
   position: fixed;
-  left: max(18px, calc((100vw - 1080px) / 2 - 74px));
-  top: clamp(148px, 34vh, 280px);
-  z-index: 5000;
+  right: 78px;
+  bottom: 18px;
+  left: auto;
+  top: auto;
+  z-index: 9998;
   width: 58px;
   min-height: 58px;
 }
@@ -562,8 +564,10 @@ select {
 
 .view-dock-panel {
   position: absolute;
-  left: calc(100% + 10px);
-  top: 0;
+  right: 0;
+  bottom: calc(100% + 10px);
+  left: auto;
+  top: auto;
   width: 208px;
   padding: 11px;
   border-radius: 18px;
@@ -1274,9 +1278,9 @@ footer {
   .upload-card { grid-template-columns: 1fr; text-align: center; }
   .event-meta { grid-template-columns: 1fr; }
   .podium, .compare-input-grid, .compare-driver-grid, .gap-grid { grid-template-columns: 1fr; }
-  .view-dock { position: fixed; left: 14px; top: auto; bottom: 84px; width: 52px; min-height: 52px; margin-bottom: 0; }
+  .view-dock { position: fixed; right: 78px; left: auto; top: auto; bottom: 18px; width: 52px; min-height: 52px; margin-bottom: 0; }
   .view-dock-trigger { width: 52px; height: 52px; min-height: 52px; border-radius: 16px; }
-  .view-dock-panel { left: 0; right: auto; bottom: calc(100% + 10px); top: auto; width: min(260px, calc(100vw - 28px)); }
+  .view-dock-panel { right: 0; left: auto; bottom: calc(100% + 10px); top: auto; width: min(260px, calc(100vw - 28px)); }
   .result-row { grid-template-columns: 52px 1fr; }
   .time-cell { grid-column: 2; text-align: left; padding-left: 0; }
 }
