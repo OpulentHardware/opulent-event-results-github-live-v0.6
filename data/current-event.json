@@ -1,13 +1,13 @@
 {
   "status": "ok",
   "sourceUrl": "https://live.sfrautox.com/#N",
-  "updatedAt": "2026-07-04T16:56:28.115Z",
+  "updatedAt": "2026-07-04T17:59:32.796Z",
   "event": {
     "title": "2026 AAS #09 Live Results",
     "date": "2026-07-04",
     "participants": 36,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-07-04T16:56:28.115Z",
+    "updatedAt": "2026-07-04T17:59:32.796Z",
     "status": "ok"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "date": "2026-07-04",
     "participants": 36,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-07-04T16:56:28.115Z",
+    "updatedAt": "2026-07-04T17:59:32.796Z",
     "status": "ok"
   },
   "title": "2026 AAS #09 Live Results",
@@ -25,101 +25,108 @@
     {
       "rank": 1,
       "position": 1,
-      "driver": "John Smith",
-      "class": "CST",
-      "cls": "CST",
-      "number": "#119",
-      "classNumber": "CST #119",
-      "time": 77.551,
-      "rawTime": 77.551,
+      "driver": "Scott Fraser",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#197",
+      "classNumber": "CAMS #197",
+      "time": 77.448,
+      "rawTime": 77.448,
       "indexedTime": null,
-      "car": "2002 Honda S2000",
+      "car": "2017 Chevrolet Corvette",
       "runs": [
-        "86.134",
-        "86.267 +2",
+        "79.786",
+        "85.266 RRN",
+        "77.684 +2",
+        "77.448",
         "77.551"
       ],
-      "bestRaw": 77.551,
-      "bestPax": 64.522
+      "bestRaw": 77.448,
+      "bestPax": 65.675
     },
     {
       "rank": 2,
       "position": 2,
-      "driver": "Bryan Stewart",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#138",
-      "classNumber": "CAMS #138",
-      "time": 78.427,
-      "rawTime": 78.427,
-      "indexedTime": null,
-      "car": "2004 Chevrolet Z06",
-      "runs": [
-        "79.139",
-        "78.427"
-      ],
-      "bestRaw": 78.427,
-      "bestPax": 66.506
-    },
-    {
-      "rank": 3,
-      "position": 3,
       "driver": "Jeff Wong",
       "class": "CAMS",
       "cls": "CAMS",
       "number": "#146",
       "classNumber": "CAMS #146",
-      "time": 78.601,
-      "rawTime": 78.601,
+      "time": 77.698,
+      "rawTime": 77.698,
       "indexedTime": null,
       "car": "2019 Chevrolet Corvette",
       "runs": [
         "79.771",
         "77.601 +1",
-        "78.567 RRN"
+        "78.567 RRN",
+        "77.698",
+        "78.342"
       ],
-      "bestRaw": 78.601,
-      "bestPax": 66.653
+      "bestRaw": 77.698,
+      "bestPax": 65.887
     },
     {
-      "rank": 4,
-      "position": 4,
-      "driver": "Duke Langley",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#71",
-      "classNumber": "CAMS #71",
-      "time": 78.668,
-      "rawTime": 78.668,
-      "indexedTime": null,
-      "car": "2002 Chevrolet corvette",
-      "runs": [
-        "79.481",
-        "77.668 +1",
-        "76.924 +2"
-      ],
-      "bestRaw": 78.668,
-      "bestPax": 66.71
-    },
-    {
-      "rank": 5,
-      "position": 5,
+      "rank": 3,
+      "position": 3,
       "driver": "Frankie Trutanic",
       "class": "CAMS",
       "cls": "CAMS",
       "number": "#97",
       "classNumber": "CAMS #97",
-      "time": 79.181,
-      "rawTime": 79.181,
+      "time": 77.917,
+      "rawTime": 77.917,
       "indexedTime": null,
       "car": "2017 Chevrolet corvette",
       "runs": [
         "79.436",
         "78.331 +1",
-        "78.181 +1"
+        "78.181 +1",
+        "77.917"
       ],
-      "bestRaw": 79.181,
-      "bestPax": 67.145
+      "bestRaw": 77.917,
+      "bestPax": 66.073
+    },
+    {
+      "rank": 4,
+      "position": 4,
+      "driver": "Bryan Stewart",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#138",
+      "classNumber": "CAMS #138",
+      "time": 78.011,
+      "rawTime": 78.011,
+      "indexedTime": null,
+      "car": "2004 Chevrolet Z06",
+      "runs": [
+        "79.139",
+        "78.427",
+        "78.011"
+      ],
+      "bestRaw": 78.011,
+      "bestPax": 66.153
+    },
+    {
+      "rank": 5,
+      "position": 5,
+      "driver": "Duke Langley",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#71",
+      "classNumber": "CAMS #71",
+      "time": 78.079,
+      "rawTime": 78.079,
+      "indexedTime": null,
+      "car": "2002 Chevrolet corvette",
+      "runs": [
+        "79.481",
+        "77.668 +1",
+        "76.924 +2",
+        "77.079 +1"
+      ],
+      "bestRaw": 78.079,
+      "bestPax": 66.21
     },
     {
       "rank": 6,
@@ -144,45 +151,69 @@
     {
       "rank": 7,
       "position": 7,
-      "driver": "Scott Fraser",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#197",
-      "classNumber": "CAMS #197",
-      "time": 79.684,
-      "rawTime": 79.684,
-      "indexedTime": null,
-      "car": "2017 Chevrolet Corvette",
-      "runs": [
-        "79.786",
-        "85.266 RRN",
-        "77.684 +2",
-        "89.158"
-      ],
-      "bestRaw": 79.684,
-      "bestPax": 67.572
-    },
-    {
-      "rank": 8,
-      "position": 8,
       "driver": "Joel Villarreal",
       "class": "CAMS",
       "cls": "CAMS",
       "number": "#126",
       "classNumber": "CAMS #126",
-      "time": 79.841,
-      "rawTime": 79.841,
+      "time": 79.515,
+      "rawTime": 79.515,
       "indexedTime": null,
       "car": "2001 Chevrolet Corvette Z06",
       "runs": [
-        "79.841"
+        "79.841",
+        "79.686 +1",
+        "79.515"
       ],
-      "bestRaw": 79.841,
-      "bestPax": 67.705
+      "bestRaw": 79.515,
+      "bestPax": 67.428
+    },
+    {
+      "rank": 8,
+      "position": 8,
+      "driver": "Mack Tsang",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#188",
+      "classNumber": "CAMS #188",
+      "time": 79.817,
+      "rawTime": 79.817,
+      "indexedTime": null,
+      "car": "2019 Chevrolet Grannie Sports",
+      "runs": [
+        "82.284",
+        "87.028 RRN",
+        "81.357",
+        "79.817",
+        "80.585"
+      ],
+      "bestRaw": 79.817,
+      "bestPax": 67.684
     },
     {
       "rank": 9,
       "position": 9,
+      "driver": "Justin Tsang",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#88",
+      "classNumber": "CAMS #88",
+      "time": 79.994,
+      "rawTime": 79.994,
+      "indexedTime": null,
+      "car": "2019 Chevrolet Corvette Grand Sport",
+      "runs": [
+        "83.263 +1",
+        "81.818",
+        "81.014",
+        "79.994"
+      ],
+      "bestRaw": 79.994,
+      "bestPax": 67.834
+    },
+    {
+      "rank": 10,
+      "position": 10,
       "driver": "Nicole Wong",
       "class": "CAMS",
       "cls": "CAMS",
@@ -195,74 +226,182 @@
       "runs": [
         "83.786 +1",
         "81.724",
-        "80.437"
+        "80.437",
+        "81.261"
       ],
       "bestRaw": 80.437,
       "bestPax": 68.21
     },
     {
-      "rank": 10,
-      "position": 10,
-      "driver": "Justin Tsang",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#88",
-      "classNumber": "CAMS #88",
-      "time": 81.014,
-      "rawTime": 81.014,
-      "indexedTime": null,
-      "car": "2019 Chevrolet Corvette Grand Sport",
-      "runs": [
-        "83.263 +1",
-        "81.818",
-        "81.014"
-      ],
-      "bestRaw": 81.014,
-      "bestPax": 68.699
-    },
-    {
       "rank": 11,
       "position": 11,
-      "driver": "Mack Tsang",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#188",
-      "classNumber": "CAMS #188",
-      "time": 81.357,
-      "rawTime": 81.357,
-      "indexedTime": null,
-      "car": "2019 Chevrolet Grannie Sports",
-      "runs": [
-        "82.284",
-        "87.028 RRN",
-        "81.357",
-        "84.626"
-      ],
-      "bestRaw": 81.357,
-      "bestPax": 68.99
-    },
-    {
-      "rank": 12,
-      "position": 12,
       "driver": "Nick Relampagos",
       "class": "CAMT",
       "cls": "CAMT",
       "number": "#128",
       "classNumber": "CAMT #128",
-      "time": 82.976,
-      "rawTime": 82.976,
+      "time": 81.749,
+      "rawTime": 81.749,
       "indexedTime": null,
       "car": "1970 Chevrolet Camaro",
       "runs": [
         "84.470 +1",
-        "82.976"
+        "82.976",
+        "81.749",
+        "81.242 +2"
       ],
-      "bestRaw": 82.976,
-      "bestPax": 68.455
+      "bestRaw": 81.749,
+      "bestPax": 67.442
+    },
+    {
+      "rank": 12,
+      "position": 12,
+      "driver": "Anthony Topalian",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#586",
+      "classNumber": "CAMS #586",
+      "time": 83.142,
+      "rawTime": 83.142,
+      "indexedTime": null,
+      "car": "2017 Chevrolet Corvette Grandsport",
+      "runs": [
+        "86.308",
+        "84.239",
+        "83.799",
+        "83.142"
+      ],
+      "bestRaw": 83.142,
+      "bestPax": 70.504
     },
     {
       "rank": 13,
       "position": 13,
+      "driver": "Ken Yeo",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#7",
+      "classNumber": "CAMS #7",
+      "time": 83.277,
+      "rawTime": 83.277,
+      "indexedTime": null,
+      "car": "1989 Chevrolet Corvette",
+      "runs": [
+        "86.522",
+        "85.113",
+        "84.915",
+        "83.277"
+      ],
+      "bestRaw": 83.277,
+      "bestPax": 70.618
+    },
+    {
+      "rank": 14,
+      "position": 14,
+      "driver": "jayman topalian",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#525",
+      "classNumber": "CAMC #525",
+      "time": 83.439,
+      "rawTime": 83.439,
+      "indexedTime": null,
+      "car": "2020 Chevrolet Camaro SS 1LE",
+      "runs": [
+        "89.216",
+        "86.065",
+        "84.056",
+        "83.439"
+      ],
+      "bestRaw": 83.439,
+      "bestPax": 69.254
+    },
+    {
+      "rank": 15,
+      "position": 15,
+      "driver": "Michael Gardner",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#48",
+      "classNumber": "CAMC #48",
+      "time": 83.644,
+      "rawTime": 83.644,
+      "indexedTime": null,
+      "car": "2016 Ford Shelby GT350",
+      "runs": [
+        "86.541",
+        "84.874",
+        "83.644",
+        "83.623 +1"
+      ],
+      "bestRaw": 83.644,
+      "bestPax": 69.424
+    },
+    {
+      "rank": 16,
+      "position": 16,
+      "driver": "Hal Dorton",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#74",
+      "classNumber": "CAMC #74",
+      "time": 83.661,
+      "rawTime": 83.661,
+      "indexedTime": null,
+      "car": "2022 Ford Mustang",
+      "runs": [
+        "86.960",
+        "85.309",
+        "84.973",
+        "83.661"
+      ],
+      "bestRaw": 83.661,
+      "bestPax": 69.438
+    },
+    {
+      "rank": 17,
+      "position": 17,
+      "driver": "Chad Ryker",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#178",
+      "classNumber": "CAMS #178",
+      "time": 83.777,
+      "rawTime": 83.777,
+      "indexedTime": null,
+      "car": "1966 Ford Cobra",
+      "runs": [
+        "111.142 +1",
+        "89.158",
+        "83.777"
+      ],
+      "bestRaw": 83.777,
+      "bestPax": 71.042
+    },
+    {
+      "rank": 18,
+      "position": 18,
+      "driver": "Da Chang",
+      "class": "CST",
+      "cls": "CST",
+      "number": "#63",
+      "classNumber": "CST #63",
+      "time": 83.874,
+      "rawTime": 83.874,
+      "indexedTime": null,
+      "car": "2009 Mazda Miata",
+      "runs": [
+        "86.417",
+        "84.904",
+        "85.424",
+        "83.874"
+      ],
+      "bestRaw": 83.874,
+      "bestPax": 69.783
+    },
+    {
+      "rank": 19,
+      "position": 19,
       "driver": "SEAN BREESE",
       "class": "CAMS",
       "cls": "CAMS",
@@ -274,53 +413,58 @@
       "car": "1989 Chevy Corvette",
       "runs": [
         "85.039",
-        "82.984 +1"
+        "82.984 +1",
+        "83.250 +1",
+        "83.066 +2"
       ],
       "bestRaw": 83.984,
       "bestPax": 71.218
     },
     {
-      "rank": 14,
-      "position": 14,
-      "driver": "jayman topalian",
-      "class": "CAMC",
-      "cls": "CAMC",
-      "number": "#525",
-      "classNumber": "CAMC #525",
-      "time": 84.056,
-      "rawTime": 84.056,
+      "rank": 20,
+      "position": 20,
+      "driver": "John Smith",
+      "class": "CST",
+      "cls": "CST",
+      "number": "#119",
+      "classNumber": "CST #119",
+      "time": 83.993,
+      "rawTime": 83.993,
       "indexedTime": null,
-      "car": "2020 Chevrolet Camaro SS 1LE",
+      "car": "2002 Honda S2000",
       "runs": [
-        "89.216",
-        "86.065",
-        "84.056"
+        "86.134",
+        "86.267 +2",
+        "84.626",
+        "83.993"
       ],
-      "bestRaw": 84.056,
-      "bestPax": 69.766
+      "bestRaw": 83.993,
+      "bestPax": 69.882
     },
     {
-      "rank": 15,
-      "position": 15,
-      "driver": "Anthony Topalian",
+      "rank": 21,
+      "position": 21,
+      "driver": "Andre Marconett",
       "class": "CAMS",
       "cls": "CAMS",
-      "number": "#586",
-      "classNumber": "CAMS #586",
-      "time": 84.239,
-      "rawTime": 84.239,
+      "number": "#180",
+      "classNumber": "CAMS #180",
+      "time": 84.404,
+      "rawTime": 84.404,
       "indexedTime": null,
-      "car": "2017 Chevrolet Corvette Grandsport",
+      "car": "2000 Dodge Viper GTS",
       "runs": [
-        "86.308",
-        "84.239"
+        "85.394",
+        "84.676 +1",
+        "84.404",
+        "84.170 +1"
       ],
-      "bestRaw": 84.239,
-      "bestPax": 71.434
+      "bestRaw": 84.404,
+      "bestPax": 71.574
     },
     {
-      "rank": 16,
-      "position": 16,
+      "rank": 22,
+      "position": 22,
       "driver": "Ed Runnion",
       "class": "CST",
       "cls": "CST",
@@ -332,130 +476,99 @@
       "car": "2022 Subaru BRZ",
       "runs": [
         "84.899",
-        "84.560"
+        "84.560",
+        "84.936 +1",
+        "97.938 DNF"
       ],
       "bestRaw": 84.56,
       "bestPax": 70.353
     },
     {
-      "rank": 17,
-      "position": 17,
-      "driver": "Michael Gardner",
-      "class": "CAMC",
-      "cls": "CAMC",
-      "number": "#48",
-      "classNumber": "CAMC #48",
-      "time": 84.874,
-      "rawTime": 84.874,
-      "indexedTime": null,
-      "car": "2016 Ford Shelby GT350",
-      "runs": [
-        "86.541",
-        "84.874"
-      ],
-      "bestRaw": 84.874,
-      "bestPax": 70.445
-    },
-    {
-      "rank": 18,
-      "position": 18,
-      "driver": "Da Chang",
-      "class": "CST",
-      "cls": "CST",
-      "number": "#63",
-      "classNumber": "CST #63",
-      "time": 84.904,
-      "rawTime": 84.904,
-      "indexedTime": null,
-      "car": "2009 Mazda Miata",
-      "runs": [
-        "86.417",
-        "84.904",
-        "85.424"
-      ],
-      "bestRaw": 84.904,
-      "bestPax": 70.64
-    },
-    {
-      "rank": 19,
-      "position": 19,
-      "driver": "Ken Yeo",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#7",
-      "classNumber": "CAMS #7",
-      "time": 84.915,
-      "rawTime": 84.915,
-      "indexedTime": null,
-      "car": "1989 Chevrolet Corvette",
-      "runs": [
-        "86.522",
-        "85.113",
-        "84.915"
-      ],
-      "bestRaw": 84.915,
-      "bestPax": 72.007
-    },
-    {
-      "rank": 20,
-      "position": 20,
-      "driver": "Hal Dorton",
-      "class": "CAMC",
-      "cls": "CAMC",
-      "number": "#74",
-      "classNumber": "CAMC #74",
-      "time": 85.309,
-      "rawTime": 85.309,
-      "indexedTime": null,
-      "car": "2022 Ford Mustang",
-      "runs": [
-        "86.960",
-        "85.309"
-      ],
-      "bestRaw": 85.309,
-      "bestPax": 70.806
-    },
-    {
-      "rank": 21,
-      "position": 21,
+      "rank": 23,
+      "position": 23,
       "driver": "Christopher Cook",
       "class": "CST",
       "cls": "CST",
       "number": "#19",
       "classNumber": "CST #19",
-      "time": 85.391,
-      "rawTime": 85.391,
+      "time": 84.595,
+      "rawTime": 84.595,
       "indexedTime": null,
       "car": "2002 Honda S2000",
       "runs": [
         "86.336",
         "86.064",
-        "85.391"
+        "85.391",
+        "84.595"
       ],
-      "bestRaw": 85.391,
-      "bestPax": 71.045
+      "bestRaw": 84.595,
+      "bestPax": 70.383
     },
     {
-      "rank": 22,
-      "position": 22,
-      "driver": "Andre Marconett",
+      "rank": 24,
+      "position": 24,
+      "driver": "Curt Hill",
       "class": "CAMS",
       "cls": "CAMS",
-      "number": "#180",
-      "classNumber": "CAMS #180",
-      "time": 85.394,
-      "rawTime": 85.394,
+      "number": "#54",
+      "classNumber": "CAMS #54",
+      "time": 84.909,
+      "rawTime": 84.909,
       "indexedTime": null,
-      "car": "2000 Dodge Viper GTS",
+      "car": "2018 Chevrolet Corvette",
       "runs": [
-        "85.394"
+        "88.270",
+        "87.000",
+        "84.909",
+        "92.584"
       ],
-      "bestRaw": 85.394,
-      "bestPax": 72.414
+      "bestRaw": 84.909,
+      "bestPax": 72.002
     },
     {
-      "rank": 23,
-      "position": 23,
+      "rank": 25,
+      "position": 25,
+      "driver": "Darren Voges",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#669",
+      "classNumber": "CAMT #669",
+      "time": 86.644,
+      "rawTime": 86.644,
+      "indexedTime": null,
+      "car": "1969 Chevrolet Camaro",
+      "runs": [
+        "88.426",
+        "88.221",
+        "86.644"
+      ],
+      "bestRaw": 86.644,
+      "bestPax": 71.481
+    },
+    {
+      "rank": 26,
+      "position": 26,
+      "driver": "Dennis Quilantang",
+      "class": "CST",
+      "cls": "CST",
+      "number": "#137",
+      "classNumber": "CST #137",
+      "time": 86.693,
+      "rawTime": 86.693,
+      "indexedTime": null,
+      "car": "2022 Subaru BRZ",
+      "runs": [
+        "93.271 DNF",
+        "87.195",
+        "86.693",
+        "87.509"
+      ],
+      "bestRaw": 86.693,
+      "bestPax": 72.128
+    },
+    {
+      "rank": 27,
+      "position": 27,
       "driver": "Mike Ansell",
       "class": "CAMS",
       "cls": "CAMS",
@@ -468,52 +581,37 @@
       "runs": [
         "91.851 +1",
         "88.313 DNF",
-        "86.738"
+        "86.738",
+        "87.568 +1"
       ],
       "bestRaw": 86.738,
       "bestPax": 73.553
     },
     {
-      "rank": 24,
-      "position": 24,
-      "driver": "Curt Hill",
+      "rank": 28,
+      "position": 28,
+      "driver": "JUSTIN SCHMELZER",
       "class": "CAMS",
       "cls": "CAMS",
-      "number": "#54",
-      "classNumber": "CAMS #54",
-      "time": 87,
-      "rawTime": 87,
+      "number": "#81",
+      "classNumber": "CAMS #81",
+      "time": 87.181,
+      "rawTime": 87.181,
       "indexedTime": null,
-      "car": "2018 Chevrolet Corvette",
+      "car": "1996 Dodge Viper",
       "runs": [
-        "88.270",
-        "87.000"
+        "91.989 +1",
+        "87.924",
+        "70.627 RRN",
+        "88.211",
+        "87.181"
       ],
-      "bestRaw": 87,
-      "bestPax": 73.776
+      "bestRaw": 87.181,
+      "bestPax": 73.929
     },
     {
-      "rank": 25,
-      "position": 25,
-      "driver": "Dennis Quilantang",
-      "class": "CST",
-      "cls": "CST",
-      "number": "#137",
-      "classNumber": "CST #137",
-      "time": 87.195,
-      "rawTime": 87.195,
-      "indexedTime": null,
-      "car": "2022 Subaru BRZ",
-      "runs": [
-        "93.271 DNF",
-        "87.195"
-      ],
-      "bestRaw": 87.195,
-      "bestPax": 72.546
-    },
-    {
-      "rank": 26,
-      "position": 26,
+      "rank": 29,
+      "position": 29,
       "driver": "Tay Thomas",
       "class": "CAMS",
       "cls": "CAMS",
@@ -526,53 +624,15 @@
       "runs": [
         "92.049",
         "89.483 DNF",
-        "87.700"
+        "87.700",
+        "88.960"
       ],
       "bestRaw": 87.7,
       "bestPax": 74.369
     },
     {
-      "rank": 27,
-      "position": 27,
-      "driver": "JUSTIN SCHMELZER",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#81",
-      "classNumber": "CAMS #81",
-      "time": 87.924,
-      "rawTime": 87.924,
-      "indexedTime": null,
-      "car": "1996 Dodge Viper",
-      "runs": [
-        "91.989 +1",
-        "87.924",
-        "70.627 RRN"
-      ],
-      "bestRaw": 87.924,
-      "bestPax": 74.559
-    },
-    {
-      "rank": 28,
-      "position": 28,
-      "driver": "Darren Voges",
-      "class": "CAMT",
-      "cls": "CAMT",
-      "number": "#669",
-      "classNumber": "CAMT #669",
-      "time": 88.221,
-      "rawTime": 88.221,
-      "indexedTime": null,
-      "car": "1969 Chevrolet Camaro",
-      "runs": [
-        "88.426",
-        "88.221"
-      ],
-      "bestRaw": 88.221,
-      "bestPax": 72.782
-    },
-    {
-      "rank": 29,
-      "position": 29,
+      "rank": 30,
+      "position": 30,
       "driver": "Lily Maier",
       "class": "CAMT",
       "cls": "CAMT",
@@ -586,33 +646,81 @@
         "90.311",
         "88.629",
         "87.747 +2",
-        "87.920 RRN"
+        "87.920 RRN",
+        "89.172 +2",
+        "138.706",
+        "89.248 +2"
       ],
       "bestRaw": 88.629,
       "bestPax": 73.118
     },
     {
-      "rank": 30,
-      "position": 30,
+      "rank": 31,
+      "position": 31,
+      "driver": "Nathan Poffenbarger",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#18",
+      "classNumber": "CAMS #18",
+      "time": 91.015,
+      "rawTime": 91.015,
+      "indexedTime": null,
+      "car": "2000 Dodge Viper",
+      "runs": [
+        "100.401",
+        "103.467 +1",
+        "94.414 RRN",
+        "96.371 +1",
+        "91.015"
+      ],
+      "bestRaw": 91.015,
+      "bestPax": 77.18
+    },
+    {
+      "rank": 32,
+      "position": 32,
       "driver": "Leon Weinroth",
       "class": "CAMC",
       "cls": "CAMC",
       "number": "#51",
       "classNumber": "CAMC #51",
-      "time": 91.889,
-      "rawTime": 91.889,
+      "time": 91.476,
+      "rawTime": 91.476,
       "indexedTime": null,
       "car": "2014 Ford Blue Mustang V6",
       "runs": [
         "93.942 +1",
-        "91.889"
+        "91.889",
+        "91.476",
+        "91.763"
       ],
-      "bestRaw": 91.889,
-      "bestPax": 76.267
+      "bestRaw": 91.476,
+      "bestPax": 75.925
     },
     {
-      "rank": 31,
-      "position": 31,
+      "rank": 33,
+      "position": 33,
+      "driver": "Derek Koehn",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#118",
+      "classNumber": "CAMS #118",
+      "time": 93.753,
+      "rawTime": 93.753,
+      "indexedTime": null,
+      "car": "Dodge",
+      "runs": [
+        "96.303",
+        "94.403",
+        "93.753",
+        "93.805"
+      ],
+      "bestRaw": 93.753,
+      "bestPax": 79.502
+    },
+    {
+      "rank": 34,
+      "position": 34,
       "driver": "Pedro Duran III",
       "class": "CAMS",
       "cls": "CAMS",
@@ -626,206 +734,161 @@
         "98.931 +3",
         "97.250 +2",
         "94.211 +1",
-        "62.316 RRN"
+        "62.316 RRN",
+        "96.086"
       ],
       "bestRaw": 95.211,
       "bestPax": 80.738
     },
     {
-      "rank": 32,
-      "position": 32,
-      "driver": "Derek Koehn",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#118",
-      "classNumber": "CAMS #118",
-      "time": 96.303,
-      "rawTime": 96.303,
-      "indexedTime": null,
-      "car": "Dodge",
-      "runs": [
-        "96.303"
-      ],
-      "bestRaw": 96.303,
-      "bestPax": 81.664
-    },
-    {
-      "rank": 33,
-      "position": 33,
-      "driver": "Nathan Poffenbarger",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#18",
-      "classNumber": "CAMS #18",
-      "time": 100.401,
-      "rawTime": 100.401,
-      "indexedTime": null,
-      "car": "2000 Dodge Viper",
-      "runs": [
-        "100.401",
-        "103.467 +1",
-        "94.414 RRN"
-      ],
-      "bestRaw": 100.401,
-      "bestPax": 85.14
-    },
-    {
-      "rank": 34,
-      "position": 34,
-      "driver": "Chuck Wiltens",
-      "class": "CAMT",
-      "cls": "CAMT",
-      "number": "#214",
-      "classNumber": "CAMT #214",
-      "time": 102.318,
-      "rawTime": 102.318,
-      "indexedTime": null,
-      "car": "1967 Ford Mustang",
-      "runs": [
-        "104.513 DNF",
-        "102.318",
-        "115.809 DNF"
-      ],
-      "bestRaw": 102.318,
-      "bestPax": 84.412
-    },
-    {
       "rank": 35,
       "position": 35,
-      "driver": "Chad Ryker",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#178",
-      "classNumber": "CAMS #178",
-      "time": 112.142,
-      "rawTime": 112.142,
-      "indexedTime": null,
-      "car": "1966 Ford Cobra",
-      "runs": [
-        "111.142 +1"
-      ],
-      "bestRaw": 112.142,
-      "bestPax": 95.096
-    },
-    {
-      "rank": 36,
-      "position": 36,
       "driver": "Kirk Lozada",
       "class": "CAMT",
       "cls": "CAMT",
       "number": "#89",
       "classNumber": "CAMT #89",
-      "time": 112.59,
-      "rawTime": 112.59,
+      "time": 98.053,
+      "rawTime": 98.053,
       "indexedTime": null,
       "car": "1968 Chevrolet Chevelle",
       "runs": [
         "121.909",
-        "112.590"
+        "112.590",
+        "102.029",
+        "98.053"
       ],
-      "bestRaw": 112.59,
-      "bestPax": 92.886
+      "bestRaw": 98.053,
+      "bestPax": 80.893
+    },
+    {
+      "rank": 36,
+      "position": 36,
+      "driver": "Chuck Wiltens",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#214",
+      "classNumber": "CAMT #214",
+      "time": 101.277,
+      "rawTime": 101.277,
+      "indexedTime": null,
+      "car": "1967 Ford Mustang",
+      "runs": [
+        "104.513 DNF",
+        "102.318",
+        "115.809 DNF",
+        "101.277"
+      ],
+      "bestRaw": 101.277,
+      "bestPax": 83.553
     }
   ],
   "pax": [
     {
       "rank": 1,
       "position": 1,
-      "driver": "John Smith",
-      "class": "CST",
-      "cls": "CST",
-      "number": "#119",
-      "classNumber": "CST #119",
-      "time": 64.522,
+      "driver": "Scott Fraser",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#197",
+      "classNumber": "CAMS #197",
+      "time": 65.675,
       "rawTime": null,
-      "indexedTime": 64.522,
-      "car": "2002 Honda S2000",
+      "indexedTime": 65.675,
+      "car": "2017 Chevrolet Corvette",
       "runs": [
-        "86.134",
-        "86.267 +2",
+        "79.786",
+        "85.266 RRN",
+        "77.684 +2",
+        "77.448",
         "77.551"
       ],
-      "bestRaw": 77.551,
-      "bestPax": 64.522
+      "bestRaw": 77.448,
+      "bestPax": 65.675
     },
     {
       "rank": 2,
       "position": 2,
-      "driver": "Bryan Stewart",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#138",
-      "classNumber": "CAMS #138",
-      "time": 66.506,
-      "rawTime": null,
-      "indexedTime": 66.506,
-      "car": "2004 Chevrolet Z06",
-      "runs": [
-        "79.139",
-        "78.427"
-      ],
-      "bestRaw": 78.427,
-      "bestPax": 66.506
-    },
-    {
-      "rank": 3,
-      "position": 3,
       "driver": "Jeff Wong",
       "class": "CAMS",
       "cls": "CAMS",
       "number": "#146",
       "classNumber": "CAMS #146",
-      "time": 66.653,
+      "time": 65.887,
       "rawTime": null,
-      "indexedTime": 66.653,
+      "indexedTime": 65.887,
       "car": "2019 Chevrolet Corvette",
       "runs": [
         "79.771",
         "77.601 +1",
-        "78.567 RRN"
+        "78.567 RRN",
+        "77.698",
+        "78.342"
       ],
-      "bestRaw": 78.601,
-      "bestPax": 66.653
+      "bestRaw": 77.698,
+      "bestPax": 65.887
     },
     {
-      "rank": 4,
-      "position": 4,
-      "driver": "Duke Langley",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#71",
-      "classNumber": "CAMS #71",
-      "time": 66.71,
-      "rawTime": null,
-      "indexedTime": 66.71,
-      "car": "2002 Chevrolet corvette",
-      "runs": [
-        "79.481",
-        "77.668 +1",
-        "76.924 +2"
-      ],
-      "bestRaw": 78.668,
-      "bestPax": 66.71
-    },
-    {
-      "rank": 5,
-      "position": 5,
+      "rank": 3,
+      "position": 3,
       "driver": "Frankie Trutanic",
       "class": "CAMS",
       "cls": "CAMS",
       "number": "#97",
       "classNumber": "CAMS #97",
-      "time": 67.145,
+      "time": 66.073,
       "rawTime": null,
-      "indexedTime": 67.145,
+      "indexedTime": 66.073,
       "car": "2017 Chevrolet corvette",
       "runs": [
         "79.436",
         "78.331 +1",
-        "78.181 +1"
+        "78.181 +1",
+        "77.917"
       ],
-      "bestRaw": 79.181,
-      "bestPax": 67.145
+      "bestRaw": 77.917,
+      "bestPax": 66.073
+    },
+    {
+      "rank": 4,
+      "position": 4,
+      "driver": "Bryan Stewart",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#138",
+      "classNumber": "CAMS #138",
+      "time": 66.153,
+      "rawTime": null,
+      "indexedTime": 66.153,
+      "car": "2004 Chevrolet Z06",
+      "runs": [
+        "79.139",
+        "78.427",
+        "78.011"
+      ],
+      "bestRaw": 78.011,
+      "bestPax": 66.153
+    },
+    {
+      "rank": 5,
+      "position": 5,
+      "driver": "Duke Langley",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#71",
+      "classNumber": "CAMS #71",
+      "time": 66.21,
+      "rawTime": null,
+      "indexedTime": 66.21,
+      "car": "2002 Chevrolet corvette",
+      "runs": [
+        "79.481",
+        "77.668 +1",
+        "76.924 +2",
+        "77.079 +1"
+      ],
+      "bestRaw": 78.079,
+      "bestPax": 66.21
     },
     {
       "rank": 6,
@@ -850,45 +913,90 @@
     {
       "rank": 7,
       "position": 7,
-      "driver": "Scott Fraser",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#197",
-      "classNumber": "CAMS #197",
-      "time": 67.572,
-      "rawTime": null,
-      "indexedTime": 67.572,
-      "car": "2017 Chevrolet Corvette",
-      "runs": [
-        "79.786",
-        "85.266 RRN",
-        "77.684 +2",
-        "89.158"
-      ],
-      "bestRaw": 79.684,
-      "bestPax": 67.572
-    },
-    {
-      "rank": 8,
-      "position": 8,
       "driver": "Joel Villarreal",
       "class": "CAMS",
       "cls": "CAMS",
       "number": "#126",
       "classNumber": "CAMS #126",
-      "time": 67.705,
+      "time": 67.428,
       "rawTime": null,
-      "indexedTime": 67.705,
+      "indexedTime": 67.428,
       "car": "2001 Chevrolet Corvette Z06",
       "runs": [
-        "79.841"
+        "79.841",
+        "79.686 +1",
+        "79.515"
       ],
-      "bestRaw": 79.841,
-      "bestPax": 67.705
+      "bestRaw": 79.515,
+      "bestPax": 67.428
+    },
+    {
+      "rank": 8,
+      "position": 8,
+      "driver": "Nick Relampagos",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#128",
+      "classNumber": "CAMT #128",
+      "time": 67.442,
+      "rawTime": null,
+      "indexedTime": 67.442,
+      "car": "1970 Chevrolet Camaro",
+      "runs": [
+        "84.470 +1",
+        "82.976",
+        "81.749",
+        "81.242 +2"
+      ],
+      "bestRaw": 81.749,
+      "bestPax": 67.442
     },
     {
       "rank": 9,
       "position": 9,
+      "driver": "Mack Tsang",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#188",
+      "classNumber": "CAMS #188",
+      "time": 67.684,
+      "rawTime": null,
+      "indexedTime": 67.684,
+      "car": "2019 Chevrolet Grannie Sports",
+      "runs": [
+        "82.284",
+        "87.028 RRN",
+        "81.357",
+        "79.817",
+        "80.585"
+      ],
+      "bestRaw": 79.817,
+      "bestPax": 67.684
+    },
+    {
+      "rank": 10,
+      "position": 10,
+      "driver": "Justin Tsang",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#88",
+      "classNumber": "CAMS #88",
+      "time": 67.834,
+      "rawTime": null,
+      "indexedTime": 67.834,
+      "car": "2019 Chevrolet Corvette Grand Sport",
+      "runs": [
+        "83.263 +1",
+        "81.818",
+        "81.014",
+        "79.994"
+      ],
+      "bestRaw": 79.994,
+      "bestPax": 67.834
+    },
+    {
+      "rank": 11,
+      "position": 11,
       "driver": "Nicole Wong",
       "class": "CAMS",
       "cls": "CAMS",
@@ -901,94 +1009,120 @@
       "runs": [
         "83.786 +1",
         "81.724",
-        "80.437"
+        "80.437",
+        "81.261"
       ],
       "bestRaw": 80.437,
       "bestPax": 68.21
     },
     {
-      "rank": 10,
-      "position": 10,
-      "driver": "Nick Relampagos",
-      "class": "CAMT",
-      "cls": "CAMT",
-      "number": "#128",
-      "classNumber": "CAMT #128",
-      "time": 68.455,
-      "rawTime": null,
-      "indexedTime": 68.455,
-      "car": "1970 Chevrolet Camaro",
-      "runs": [
-        "84.470 +1",
-        "82.976"
-      ],
-      "bestRaw": 82.976,
-      "bestPax": 68.455
-    },
-    {
-      "rank": 11,
-      "position": 11,
-      "driver": "Justin Tsang",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#88",
-      "classNumber": "CAMS #88",
-      "time": 68.699,
-      "rawTime": null,
-      "indexedTime": 68.699,
-      "car": "2019 Chevrolet Corvette Grand Sport",
-      "runs": [
-        "83.263 +1",
-        "81.818",
-        "81.014"
-      ],
-      "bestRaw": 81.014,
-      "bestPax": 68.699
-    },
-    {
       "rank": 12,
       "position": 12,
-      "driver": "Mack Tsang",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#188",
-      "classNumber": "CAMS #188",
-      "time": 68.99,
-      "rawTime": null,
-      "indexedTime": 68.99,
-      "car": "2019 Chevrolet Grannie Sports",
-      "runs": [
-        "82.284",
-        "87.028 RRN",
-        "81.357",
-        "84.626"
-      ],
-      "bestRaw": 81.357,
-      "bestPax": 68.99
-    },
-    {
-      "rank": 13,
-      "position": 13,
       "driver": "jayman topalian",
       "class": "CAMC",
       "cls": "CAMC",
       "number": "#525",
       "classNumber": "CAMC #525",
-      "time": 69.766,
+      "time": 69.254,
       "rawTime": null,
-      "indexedTime": 69.766,
+      "indexedTime": 69.254,
       "car": "2020 Chevrolet Camaro SS 1LE",
       "runs": [
         "89.216",
         "86.065",
-        "84.056"
+        "84.056",
+        "83.439"
       ],
-      "bestRaw": 84.056,
-      "bestPax": 69.766
+      "bestRaw": 83.439,
+      "bestPax": 69.254
+    },
+    {
+      "rank": 13,
+      "position": 13,
+      "driver": "Michael Gardner",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#48",
+      "classNumber": "CAMC #48",
+      "time": 69.424,
+      "rawTime": null,
+      "indexedTime": 69.424,
+      "car": "2016 Ford Shelby GT350",
+      "runs": [
+        "86.541",
+        "84.874",
+        "83.644",
+        "83.623 +1"
+      ],
+      "bestRaw": 83.644,
+      "bestPax": 69.424
     },
     {
       "rank": 14,
       "position": 14,
+      "driver": "Hal Dorton",
+      "class": "CAMC",
+      "cls": "CAMC",
+      "number": "#74",
+      "classNumber": "CAMC #74",
+      "time": 69.438,
+      "rawTime": null,
+      "indexedTime": 69.438,
+      "car": "2022 Ford Mustang",
+      "runs": [
+        "86.960",
+        "85.309",
+        "84.973",
+        "83.661"
+      ],
+      "bestRaw": 83.661,
+      "bestPax": 69.438
+    },
+    {
+      "rank": 15,
+      "position": 15,
+      "driver": "Da Chang",
+      "class": "CST",
+      "cls": "CST",
+      "number": "#63",
+      "classNumber": "CST #63",
+      "time": 69.783,
+      "rawTime": null,
+      "indexedTime": 69.783,
+      "car": "2009 Mazda Miata",
+      "runs": [
+        "86.417",
+        "84.904",
+        "85.424",
+        "83.874"
+      ],
+      "bestRaw": 83.874,
+      "bestPax": 69.783
+    },
+    {
+      "rank": 16,
+      "position": 16,
+      "driver": "John Smith",
+      "class": "CST",
+      "cls": "CST",
+      "number": "#119",
+      "classNumber": "CST #119",
+      "time": 69.882,
+      "rawTime": null,
+      "indexedTime": 69.882,
+      "car": "2002 Honda S2000",
+      "runs": [
+        "86.134",
+        "86.267 +2",
+        "84.626",
+        "83.993"
+      ],
+      "bestRaw": 83.993,
+      "bestPax": 69.882
+    },
+    {
+      "rank": 17,
+      "position": 17,
       "driver": "Ed Runnion",
       "class": "CST",
       "cls": "CST",
@@ -1000,68 +1134,12 @@
       "car": "2022 Subaru BRZ",
       "runs": [
         "84.899",
-        "84.560"
+        "84.560",
+        "84.936 +1",
+        "97.938 DNF"
       ],
       "bestRaw": 84.56,
       "bestPax": 70.353
-    },
-    {
-      "rank": 15,
-      "position": 15,
-      "driver": "Michael Gardner",
-      "class": "CAMC",
-      "cls": "CAMC",
-      "number": "#48",
-      "classNumber": "CAMC #48",
-      "time": 70.445,
-      "rawTime": null,
-      "indexedTime": 70.445,
-      "car": "2016 Ford Shelby GT350",
-      "runs": [
-        "86.541",
-        "84.874"
-      ],
-      "bestRaw": 84.874,
-      "bestPax": 70.445
-    },
-    {
-      "rank": 16,
-      "position": 16,
-      "driver": "Da Chang",
-      "class": "CST",
-      "cls": "CST",
-      "number": "#63",
-      "classNumber": "CST #63",
-      "time": 70.64,
-      "rawTime": null,
-      "indexedTime": 70.64,
-      "car": "2009 Mazda Miata",
-      "runs": [
-        "86.417",
-        "84.904",
-        "85.424"
-      ],
-      "bestRaw": 84.904,
-      "bestPax": 70.64
-    },
-    {
-      "rank": 17,
-      "position": 17,
-      "driver": "Hal Dorton",
-      "class": "CAMC",
-      "cls": "CAMC",
-      "number": "#74",
-      "classNumber": "CAMC #74",
-      "time": 70.806,
-      "rawTime": null,
-      "indexedTime": 70.806,
-      "car": "2022 Ford Mustang",
-      "runs": [
-        "86.960",
-        "85.309"
-      ],
-      "bestRaw": 85.309,
-      "bestPax": 70.806
     },
     {
       "rank": 18,
@@ -1071,21 +1149,84 @@
       "cls": "CST",
       "number": "#19",
       "classNumber": "CST #19",
-      "time": 71.045,
+      "time": 70.383,
       "rawTime": null,
-      "indexedTime": 71.045,
+      "indexedTime": 70.383,
       "car": "2002 Honda S2000",
       "runs": [
         "86.336",
         "86.064",
-        "85.391"
+        "85.391",
+        "84.595"
       ],
-      "bestRaw": 85.391,
-      "bestPax": 71.045
+      "bestRaw": 84.595,
+      "bestPax": 70.383
     },
     {
       "rank": 19,
       "position": 19,
+      "driver": "Anthony Topalian",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#586",
+      "classNumber": "CAMS #586",
+      "time": 70.504,
+      "rawTime": null,
+      "indexedTime": 70.504,
+      "car": "2017 Chevrolet Corvette Grandsport",
+      "runs": [
+        "86.308",
+        "84.239",
+        "83.799",
+        "83.142"
+      ],
+      "bestRaw": 83.142,
+      "bestPax": 70.504
+    },
+    {
+      "rank": 20,
+      "position": 20,
+      "driver": "Ken Yeo",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#7",
+      "classNumber": "CAMS #7",
+      "time": 70.618,
+      "rawTime": null,
+      "indexedTime": 70.618,
+      "car": "1989 Chevrolet Corvette",
+      "runs": [
+        "86.522",
+        "85.113",
+        "84.915",
+        "83.277"
+      ],
+      "bestRaw": 83.277,
+      "bestPax": 70.618
+    },
+    {
+      "rank": 21,
+      "position": 21,
+      "driver": "Chad Ryker",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#178",
+      "classNumber": "CAMS #178",
+      "time": 71.042,
+      "rawTime": null,
+      "indexedTime": 71.042,
+      "car": "1966 Ford Cobra",
+      "runs": [
+        "111.142 +1",
+        "89.158",
+        "83.777"
+      ],
+      "bestRaw": 83.777,
+      "bestPax": 71.042
+    },
+    {
+      "rank": 22,
+      "position": 22,
       "driver": "SEAN BREESE",
       "class": "CAMS",
       "cls": "CAMS",
@@ -1097,109 +1238,99 @@
       "car": "1989 Chevy Corvette",
       "runs": [
         "85.039",
-        "82.984 +1"
+        "82.984 +1",
+        "83.250 +1",
+        "83.066 +2"
       ],
       "bestRaw": 83.984,
       "bestPax": 71.218
     },
     {
-      "rank": 20,
-      "position": 20,
-      "driver": "Anthony Topalian",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#586",
-      "classNumber": "CAMS #586",
-      "time": 71.434,
-      "rawTime": null,
-      "indexedTime": 71.434,
-      "car": "2017 Chevrolet Corvette Grandsport",
-      "runs": [
-        "86.308",
-        "84.239"
-      ],
-      "bestRaw": 84.239,
-      "bestPax": 71.434
-    },
-    {
-      "rank": 21,
-      "position": 21,
-      "driver": "Ken Yeo",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#7",
-      "classNumber": "CAMS #7",
-      "time": 72.007,
-      "rawTime": null,
-      "indexedTime": 72.007,
-      "car": "1989 Chevrolet Corvette",
-      "runs": [
-        "86.522",
-        "85.113",
-        "84.915"
-      ],
-      "bestRaw": 84.915,
-      "bestPax": 72.007
-    },
-    {
-      "rank": 22,
-      "position": 22,
-      "driver": "Andre Marconett",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#180",
-      "classNumber": "CAMS #180",
-      "time": 72.414,
-      "rawTime": null,
-      "indexedTime": 72.414,
-      "car": "2000 Dodge Viper GTS",
-      "runs": [
-        "85.394"
-      ],
-      "bestRaw": 85.394,
-      "bestPax": 72.414
-    },
-    {
       "rank": 23,
       "position": 23,
-      "driver": "Dennis Quilantang",
-      "class": "CST",
-      "cls": "CST",
-      "number": "#137",
-      "classNumber": "CST #137",
-      "time": 72.546,
-      "rawTime": null,
-      "indexedTime": 72.546,
-      "car": "2022 Subaru BRZ",
-      "runs": [
-        "93.271 DNF",
-        "87.195"
-      ],
-      "bestRaw": 87.195,
-      "bestPax": 72.546
-    },
-    {
-      "rank": 24,
-      "position": 24,
       "driver": "Darren Voges",
       "class": "CAMT",
       "cls": "CAMT",
       "number": "#669",
       "classNumber": "CAMT #669",
-      "time": 72.782,
+      "time": 71.481,
       "rawTime": null,
-      "indexedTime": 72.782,
+      "indexedTime": 71.481,
       "car": "1969 Chevrolet Camaro",
       "runs": [
         "88.426",
-        "88.221"
+        "88.221",
+        "86.644"
       ],
-      "bestRaw": 88.221,
-      "bestPax": 72.782
+      "bestRaw": 86.644,
+      "bestPax": 71.481
+    },
+    {
+      "rank": 24,
+      "position": 24,
+      "driver": "Andre Marconett",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#180",
+      "classNumber": "CAMS #180",
+      "time": 71.574,
+      "rawTime": null,
+      "indexedTime": 71.574,
+      "car": "2000 Dodge Viper GTS",
+      "runs": [
+        "85.394",
+        "84.676 +1",
+        "84.404",
+        "84.170 +1"
+      ],
+      "bestRaw": 84.404,
+      "bestPax": 71.574
     },
     {
       "rank": 25,
       "position": 25,
+      "driver": "Curt Hill",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#54",
+      "classNumber": "CAMS #54",
+      "time": 72.002,
+      "rawTime": null,
+      "indexedTime": 72.002,
+      "car": "2018 Chevrolet Corvette",
+      "runs": [
+        "88.270",
+        "87.000",
+        "84.909",
+        "92.584"
+      ],
+      "bestRaw": 84.909,
+      "bestPax": 72.002
+    },
+    {
+      "rank": 26,
+      "position": 26,
+      "driver": "Dennis Quilantang",
+      "class": "CST",
+      "cls": "CST",
+      "number": "#137",
+      "classNumber": "CST #137",
+      "time": 72.128,
+      "rawTime": null,
+      "indexedTime": 72.128,
+      "car": "2022 Subaru BRZ",
+      "runs": [
+        "93.271 DNF",
+        "87.195",
+        "86.693",
+        "87.509"
+      ],
+      "bestRaw": 86.693,
+      "bestPax": 72.128
+    },
+    {
+      "rank": 27,
+      "position": 27,
       "driver": "Lily Maier",
       "class": "CAMT",
       "cls": "CAMT",
@@ -1213,14 +1344,17 @@
         "90.311",
         "88.629",
         "87.747 +2",
-        "87.920 RRN"
+        "87.920 RRN",
+        "89.172 +2",
+        "138.706",
+        "89.248 +2"
       ],
       "bestRaw": 88.629,
       "bestPax": 73.118
     },
     {
-      "rank": 26,
-      "position": 26,
+      "rank": 28,
+      "position": 28,
       "driver": "Mike Ansell",
       "class": "CAMS",
       "cls": "CAMS",
@@ -1233,33 +1367,37 @@
       "runs": [
         "91.851 +1",
         "88.313 DNF",
-        "86.738"
+        "86.738",
+        "87.568 +1"
       ],
       "bestRaw": 86.738,
       "bestPax": 73.553
     },
     {
-      "rank": 27,
-      "position": 27,
-      "driver": "Curt Hill",
+      "rank": 29,
+      "position": 29,
+      "driver": "JUSTIN SCHMELZER",
       "class": "CAMS",
       "cls": "CAMS",
-      "number": "#54",
-      "classNumber": "CAMS #54",
-      "time": 73.776,
+      "number": "#81",
+      "classNumber": "CAMS #81",
+      "time": 73.929,
       "rawTime": null,
-      "indexedTime": 73.776,
-      "car": "2018 Chevrolet Corvette",
+      "indexedTime": 73.929,
+      "car": "1996 Dodge Viper",
       "runs": [
-        "88.270",
-        "87.000"
+        "91.989 +1",
+        "87.924",
+        "70.627 RRN",
+        "88.211",
+        "87.181"
       ],
-      "bestRaw": 87,
-      "bestPax": 73.776
+      "bestRaw": 87.181,
+      "bestPax": 73.929
     },
     {
-      "rank": 28,
-      "position": 28,
+      "rank": 30,
+      "position": 30,
       "driver": "Tay Thomas",
       "class": "CAMS",
       "cls": "CAMS",
@@ -1272,53 +1410,79 @@
       "runs": [
         "92.049",
         "89.483 DNF",
-        "87.700"
+        "87.700",
+        "88.960"
       ],
       "bestRaw": 87.7,
       "bestPax": 74.369
     },
     {
-      "rank": 29,
-      "position": 29,
-      "driver": "JUSTIN SCHMELZER",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#81",
-      "classNumber": "CAMS #81",
-      "time": 74.559,
-      "rawTime": null,
-      "indexedTime": 74.559,
-      "car": "1996 Dodge Viper",
-      "runs": [
-        "91.989 +1",
-        "87.924",
-        "70.627 RRN"
-      ],
-      "bestRaw": 87.924,
-      "bestPax": 74.559
-    },
-    {
-      "rank": 30,
-      "position": 30,
+      "rank": 31,
+      "position": 31,
       "driver": "Leon Weinroth",
       "class": "CAMC",
       "cls": "CAMC",
       "number": "#51",
       "classNumber": "CAMC #51",
-      "time": 76.267,
+      "time": 75.925,
       "rawTime": null,
-      "indexedTime": 76.267,
+      "indexedTime": 75.925,
       "car": "2014 Ford Blue Mustang V6",
       "runs": [
         "93.942 +1",
-        "91.889"
+        "91.889",
+        "91.476",
+        "91.763"
       ],
-      "bestRaw": 91.889,
-      "bestPax": 76.267
+      "bestRaw": 91.476,
+      "bestPax": 75.925
     },
     {
-      "rank": 31,
-      "position": 31,
+      "rank": 32,
+      "position": 32,
+      "driver": "Nathan Poffenbarger",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#18",
+      "classNumber": "CAMS #18",
+      "time": 77.18,
+      "rawTime": null,
+      "indexedTime": 77.18,
+      "car": "2000 Dodge Viper",
+      "runs": [
+        "100.401",
+        "103.467 +1",
+        "94.414 RRN",
+        "96.371 +1",
+        "91.015"
+      ],
+      "bestRaw": 91.015,
+      "bestPax": 77.18
+    },
+    {
+      "rank": 33,
+      "position": 33,
+      "driver": "Derek Koehn",
+      "class": "CAMS",
+      "cls": "CAMS",
+      "number": "#118",
+      "classNumber": "CAMS #118",
+      "time": 79.502,
+      "rawTime": null,
+      "indexedTime": 79.502,
+      "car": "Dodge",
+      "runs": [
+        "96.303",
+        "94.403",
+        "93.753",
+        "93.805"
+      ],
+      "bestRaw": 93.753,
+      "bestPax": 79.502
+    },
+    {
+      "rank": 34,
+      "position": 34,
       "driver": "Pedro Duran III",
       "class": "CAMS",
       "cls": "CAMS",
@@ -1332,68 +1496,11 @@
         "98.931 +3",
         "97.250 +2",
         "94.211 +1",
-        "62.316 RRN"
+        "62.316 RRN",
+        "96.086"
       ],
       "bestRaw": 95.211,
       "bestPax": 80.738
-    },
-    {
-      "rank": 32,
-      "position": 32,
-      "driver": "Derek Koehn",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#118",
-      "classNumber": "CAMS #118",
-      "time": 81.664,
-      "rawTime": null,
-      "indexedTime": 81.664,
-      "car": "Dodge",
-      "runs": [
-        "96.303"
-      ],
-      "bestRaw": 96.303,
-      "bestPax": 81.664
-    },
-    {
-      "rank": 33,
-      "position": 33,
-      "driver": "Chuck Wiltens",
-      "class": "CAMT",
-      "cls": "CAMT",
-      "number": "#214",
-      "classNumber": "CAMT #214",
-      "time": 84.412,
-      "rawTime": null,
-      "indexedTime": 84.412,
-      "car": "1967 Ford Mustang",
-      "runs": [
-        "104.513 DNF",
-        "102.318",
-        "115.809 DNF"
-      ],
-      "bestRaw": 102.318,
-      "bestPax": 84.412
-    },
-    {
-      "rank": 34,
-      "position": 34,
-      "driver": "Nathan Poffenbarger",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#18",
-      "classNumber": "CAMS #18",
-      "time": 85.14,
-      "rawTime": null,
-      "indexedTime": 85.14,
-      "car": "2000 Dodge Viper",
-      "runs": [
-        "100.401",
-        "103.467 +1",
-        "94.414 RRN"
-      ],
-      "bestRaw": 100.401,
-      "bestPax": 85.14
     },
     {
       "rank": 35,
@@ -1403,34 +1510,39 @@
       "cls": "CAMT",
       "number": "#89",
       "classNumber": "CAMT #89",
-      "time": 92.886,
+      "time": 80.893,
       "rawTime": null,
-      "indexedTime": 92.886,
+      "indexedTime": 80.893,
       "car": "1968 Chevrolet Chevelle",
       "runs": [
         "121.909",
-        "112.590"
+        "112.590",
+        "102.029",
+        "98.053"
       ],
-      "bestRaw": 112.59,
-      "bestPax": 92.886
+      "bestRaw": 98.053,
+      "bestPax": 80.893
     },
     {
       "rank": 36,
       "position": 36,
-      "driver": "Chad Ryker",
-      "class": "CAMS",
-      "cls": "CAMS",
-      "number": "#178",
-      "classNumber": "CAMS #178",
-      "time": 95.096,
+      "driver": "Chuck Wiltens",
+      "class": "CAMT",
+      "cls": "CAMT",
+      "number": "#214",
+      "classNumber": "CAMT #214",
+      "time": 83.553,
       "rawTime": null,
-      "indexedTime": 95.096,
-      "car": "1966 Ford Cobra",
+      "indexedTime": 83.553,
+      "car": "1967 Ford Mustang",
       "runs": [
-        "111.142 +1"
+        "104.513 DNF",
+        "102.318",
+        "115.809 DNF",
+        "101.277"
       ],
-      "bestRaw": 112.142,
-      "bestPax": 95.096
+      "bestRaw": 101.277,
+      "bestPax": 83.553
     }
   ],
   "classes": {
@@ -1444,15 +1556,16 @@
         "number": "#525",
         "car": "2020 Chevrolet Camaro SS 1LE",
         "classNumber": "CAMC #525",
-        "bestRaw": 84.056,
-        "bestPax": 69.766,
-        "rawTime": 84.056,
-        "indexedTime": 69.766,
-        "time": 84.056,
+        "bestRaw": 83.439,
+        "bestPax": 69.254,
+        "rawTime": 83.439,
+        "indexedTime": 69.254,
+        "time": 83.439,
         "runs": [
           "89.216",
           "86.065",
-          "84.056"
+          "84.056",
+          "83.439"
         ]
       },
       {
@@ -1464,14 +1577,16 @@
         "number": "#48",
         "car": "2016 Ford Shelby GT350",
         "classNumber": "CAMC #48",
-        "bestRaw": 84.874,
-        "bestPax": 70.445,
-        "rawTime": 84.874,
-        "indexedTime": 70.445,
-        "time": 84.874,
+        "bestRaw": 83.644,
+        "bestPax": 69.424,
+        "rawTime": 83.644,
+        "indexedTime": 69.424,
+        "time": 83.644,
         "runs": [
           "86.541",
-          "84.874"
+          "84.874",
+          "83.644",
+          "83.623 +1"
         ]
       },
       {
@@ -1483,14 +1598,16 @@
         "number": "#74",
         "car": "2022 Ford Mustang",
         "classNumber": "CAMC #74",
-        "bestRaw": 85.309,
-        "bestPax": 70.806,
-        "rawTime": 85.309,
-        "indexedTime": 70.806,
-        "time": 85.309,
+        "bestRaw": 83.661,
+        "bestPax": 69.438,
+        "rawTime": 83.661,
+        "indexedTime": 69.438,
+        "time": 83.661,
         "runs": [
           "86.960",
-          "85.309"
+          "85.309",
+          "84.973",
+          "83.661"
         ]
       },
       {
@@ -1502,14 +1619,16 @@
         "number": "#51",
         "car": "2014 Ford Blue Mustang V6",
         "classNumber": "CAMC #51",
-        "bestRaw": 91.889,
-        "bestPax": 76.267,
-        "rawTime": 91.889,
-        "indexedTime": 76.267,
-        "time": 91.889,
+        "bestRaw": 91.476,
+        "bestPax": 75.925,
+        "rawTime": 91.476,
+        "indexedTime": 75.925,
+        "time": 91.476,
         "runs": [
           "93.942 +1",
-          "91.889"
+          "91.889",
+          "91.476",
+          "91.763"
         ]
       }
     ],
@@ -1517,20 +1636,23 @@
       {
         "position": 1,
         "rank": 1,
-        "driver": "Bryan Stewart",
+        "driver": "Scott Fraser",
         "class": "CAMS",
         "cls": "CAMS",
-        "number": "#138",
-        "car": "2004 Chevrolet Z06",
-        "classNumber": "CAMS #138",
-        "bestRaw": 78.427,
-        "bestPax": 66.506,
-        "rawTime": 78.427,
-        "indexedTime": 66.506,
-        "time": 78.427,
+        "number": "#197",
+        "car": "2017 Chevrolet Corvette",
+        "classNumber": "CAMS #197",
+        "bestRaw": 77.448,
+        "bestPax": 65.675,
+        "rawTime": 77.448,
+        "indexedTime": 65.675,
+        "time": 77.448,
         "runs": [
-          "79.139",
-          "78.427"
+          "79.786",
+          "85.266 RRN",
+          "77.684 +2",
+          "77.448",
+          "77.551"
         ]
       },
       {
@@ -1542,60 +1664,84 @@
         "number": "#146",
         "car": "2019 Chevrolet Corvette",
         "classNumber": "CAMS #146",
-        "bestRaw": 78.601,
-        "bestPax": 66.653,
-        "rawTime": 78.601,
-        "indexedTime": 66.653,
-        "time": 78.601,
+        "bestRaw": 77.698,
+        "bestPax": 65.887,
+        "rawTime": 77.698,
+        "indexedTime": 65.887,
+        "time": 77.698,
         "runs": [
           "79.771",
           "77.601 +1",
-          "78.567 RRN"
+          "78.567 RRN",
+          "77.698",
+          "78.342"
         ]
       },
       {
         "position": 3,
         "rank": 3,
-        "driver": "Duke Langley",
-        "class": "CAMS",
-        "cls": "CAMS",
-        "number": "#71",
-        "car": "2002 Chevrolet corvette",
-        "classNumber": "CAMS #71",
-        "bestRaw": 78.668,
-        "bestPax": 66.71,
-        "rawTime": 78.668,
-        "indexedTime": 66.71,
-        "time": 78.668,
-        "runs": [
-          "79.481",
-          "77.668 +1",
-          "76.924 +2"
-        ]
-      },
-      {
-        "position": 4,
-        "rank": 4,
         "driver": "Frankie Trutanic",
         "class": "CAMS",
         "cls": "CAMS",
         "number": "#97",
         "car": "2017 Chevrolet corvette",
         "classNumber": "CAMS #97",
-        "bestRaw": 79.181,
-        "bestPax": 67.145,
-        "rawTime": 79.181,
-        "indexedTime": 67.145,
-        "time": 79.181,
+        "bestRaw": 77.917,
+        "bestPax": 66.073,
+        "rawTime": 77.917,
+        "indexedTime": 66.073,
+        "time": 77.917,
         "runs": [
           "79.436",
           "78.331 +1",
-          "78.181 +1"
+          "78.181 +1",
+          "77.917"
+        ]
+      },
+      {
+        "position": 4,
+        "rank": 4,
+        "driver": "Bryan Stewart",
+        "class": "CAMS",
+        "cls": "CAMS",
+        "number": "#138",
+        "car": "2004 Chevrolet Z06",
+        "classNumber": "CAMS #138",
+        "bestRaw": 78.011,
+        "bestPax": 66.153,
+        "rawTime": 78.011,
+        "indexedTime": 66.153,
+        "time": 78.011,
+        "runs": [
+          "79.139",
+          "78.427",
+          "78.011"
         ]
       },
       {
         "position": 5,
         "rank": 5,
+        "driver": "Duke Langley",
+        "class": "CAMS",
+        "cls": "CAMS",
+        "number": "#71",
+        "car": "2002 Chevrolet corvette",
+        "classNumber": "CAMS #71",
+        "bestRaw": 78.079,
+        "bestPax": 66.21,
+        "rawTime": 78.079,
+        "indexedTime": 66.21,
+        "time": 78.079,
+        "runs": [
+          "79.481",
+          "77.668 +1",
+          "76.924 +2",
+          "77.079 +1"
+        ]
+      },
+      {
+        "position": 6,
+        "rank": 6,
         "driver": "Chris Cox",
         "class": "CAMS",
         "cls": "CAMS",
@@ -1614,27 +1760,6 @@
         ]
       },
       {
-        "position": 6,
-        "rank": 6,
-        "driver": "Scott Fraser",
-        "class": "CAMS",
-        "cls": "CAMS",
-        "number": "#197",
-        "car": "2017 Chevrolet Corvette",
-        "classNumber": "CAMS #197",
-        "bestRaw": 79.684,
-        "bestPax": 67.572,
-        "rawTime": 79.684,
-        "indexedTime": 67.572,
-        "time": 79.684,
-        "runs": [
-          "79.786",
-          "85.266 RRN",
-          "77.684 +2",
-          "89.158"
-        ]
-      },
-      {
         "position": 7,
         "rank": 7,
         "driver": "Joel Villarreal",
@@ -1643,18 +1768,63 @@
         "number": "#126",
         "car": "2001 Chevrolet Corvette Z06",
         "classNumber": "CAMS #126",
-        "bestRaw": 79.841,
-        "bestPax": 67.705,
-        "rawTime": 79.841,
-        "indexedTime": 67.705,
-        "time": 79.841,
+        "bestRaw": 79.515,
+        "bestPax": 67.428,
+        "rawTime": 79.515,
+        "indexedTime": 67.428,
+        "time": 79.515,
         "runs": [
-          "79.841"
+          "79.841",
+          "79.686 +1",
+          "79.515"
         ]
       },
       {
         "position": 8,
         "rank": 8,
+        "driver": "Mack Tsang",
+        "class": "CAMS",
+        "cls": "CAMS",
+        "number": "#188",
+        "car": "2019 Chevrolet Grannie Sports",
+        "classNumber": "CAMS #188",
+        "bestRaw": 79.817,
+        "bestPax": 67.684,
+        "rawTime": 79.817,
+        "indexedTime": 67.684,
+        "time": 79.817,
+        "runs": [
+          "82.284",
+          "87.028 RRN",
+          "81.357",
+          "79.817",
+          "80.585"
+        ]
+      },
+      {
+        "position": 9,
+        "rank": 9,
+        "driver": "Justin Tsang",
+        "class": "CAMS",
+        "cls": "CAMS",
+        "number": "#88",
+        "car": "2019 Chevrolet Corvette Grand Sport",
+        "classNumber": "CAMS #88",
+        "bestRaw": 79.994,
+        "bestPax": 67.834,
+        "rawTime": 79.994,
+        "indexedTime": 67.834,
+        "time": 79.994,
+        "runs": [
+          "83.263 +1",
+          "81.818",
+          "81.014",
+          "79.994"
+        ]
+      },
+      {
+        "position": 10,
+        "rank": 10,
         "driver": "Nicole Wong",
         "class": "CAMS",
         "cls": "CAMS",
@@ -1669,53 +1839,75 @@
         "runs": [
           "83.786 +1",
           "81.724",
-          "80.437"
-        ]
-      },
-      {
-        "position": 9,
-        "rank": 9,
-        "driver": "Justin Tsang",
-        "class": "CAMS",
-        "cls": "CAMS",
-        "number": "#88",
-        "car": "2019 Chevrolet Corvette Grand Sport",
-        "classNumber": "CAMS #88",
-        "bestRaw": 81.014,
-        "bestPax": 68.699,
-        "rawTime": 81.014,
-        "indexedTime": 68.699,
-        "time": 81.014,
-        "runs": [
-          "83.263 +1",
-          "81.818",
-          "81.014"
-        ]
-      },
-      {
-        "position": 10,
-        "rank": 10,
-        "driver": "Mack Tsang",
-        "class": "CAMS",
-        "cls": "CAMS",
-        "number": "#188",
-        "car": "2019 Chevrolet Grannie Sports",
-        "classNumber": "CAMS #188",
-        "bestRaw": 81.357,
-        "bestPax": 68.99,
-        "rawTime": 81.357,
-        "indexedTime": 68.99,
-        "time": 81.357,
-        "runs": [
-          "82.284",
-          "87.028 RRN",
-          "81.357",
-          "84.626"
+          "80.437",
+          "81.261"
         ]
       },
       {
         "position": 11,
         "rank": 11,
+        "driver": "Anthony Topalian",
+        "class": "CAMS",
+        "cls": "CAMS",
+        "number": "#586",
+        "car": "2017 Chevrolet Corvette Grandsport",
+        "classNumber": "CAMS #586",
+        "bestRaw": 83.142,
+        "bestPax": 70.504,
+        "rawTime": 83.142,
+        "indexedTime": 70.504,
+        "time": 83.142,
+        "runs": [
+          "86.308",
+          "84.239",
+          "83.799",
+          "83.142"
+        ]
+      },
+      {
+        "position": 12,
+        "rank": 12,
+        "driver": "Ken Yeo",
+        "class": "CAMS",
+        "cls": "CAMS",
+        "number": "#7",
+        "car": "1989 Chevrolet Corvette",
+        "classNumber": "CAMS #7",
+        "bestRaw": 83.277,
+        "bestPax": 70.618,
+        "rawTime": 83.277,
+        "indexedTime": 70.618,
+        "time": 83.277,
+        "runs": [
+          "86.522",
+          "85.113",
+          "84.915",
+          "83.277"
+        ]
+      },
+      {
+        "position": 13,
+        "rank": 13,
+        "driver": "Chad Ryker",
+        "class": "CAMS",
+        "cls": "CAMS",
+        "number": "#178",
+        "car": "1966 Ford Cobra",
+        "classNumber": "CAMS #178",
+        "bestRaw": 83.777,
+        "bestPax": 71.042,
+        "rawTime": 83.777,
+        "indexedTime": 71.042,
+        "time": 83.777,
+        "runs": [
+          "111.142 +1",
+          "89.158",
+          "83.777"
+        ]
+      },
+      {
+        "position": 14,
+        "rank": 14,
         "driver": "SEAN BREESE",
         "class": "CAMS",
         "cls": "CAMS",
@@ -1729,69 +1921,56 @@
         "time": 83.984,
         "runs": [
           "85.039",
-          "82.984 +1"
+          "82.984 +1",
+          "83.250 +1",
+          "83.066 +2"
         ]
       },
       {
-        "position": 12,
-        "rank": 12,
-        "driver": "Anthony Topalian",
-        "class": "CAMS",
-        "cls": "CAMS",
-        "number": "#586",
-        "car": "2017 Chevrolet Corvette Grandsport",
-        "classNumber": "CAMS #586",
-        "bestRaw": 84.239,
-        "bestPax": 71.434,
-        "rawTime": 84.239,
-        "indexedTime": 71.434,
-        "time": 84.239,
-        "runs": [
-          "86.308",
-          "84.239"
-        ]
-      },
-      {
-        "position": 13,
-        "rank": 13,
-        "driver": "Ken Yeo",
-        "class": "CAMS",
-        "cls": "CAMS",
-        "number": "#7",
-        "car": "1989 Chevrolet Corvette",
-        "classNumber": "CAMS #7",
-        "bestRaw": 84.915,
-        "bestPax": 72.007,
-        "rawTime": 84.915,
-        "indexedTime": 72.007,
-        "time": 84.915,
-        "runs": [
-          "86.522",
-          "85.113",
-          "84.915"
-        ]
-      },
-      {
-        "position": 14,
-        "rank": 14,
+        "position": 15,
+        "rank": 15,
         "driver": "Andre Marconett",
         "class": "CAMS",
         "cls": "CAMS",
         "number": "#180",
         "car": "2000 Dodge Viper GTS",
         "classNumber": "CAMS #180",
-        "bestRaw": 85.394,
-        "bestPax": 72.414,
-        "rawTime": 85.394,
-        "indexedTime": 72.414,
-        "time": 85.394,
+        "bestRaw": 84.404,
+        "bestPax": 71.574,
+        "rawTime": 84.404,
+        "indexedTime": 71.574,
+        "time": 84.404,
         "runs": [
-          "85.394"
+          "85.394",
+          "84.676 +1",
+          "84.404",
+          "84.170 +1"
         ]
       },
       {
-        "position": 15,
-        "rank": 15,
+        "position": 16,
+        "rank": 16,
+        "driver": "Curt Hill",
+        "class": "CAMS",
+        "cls": "CAMS",
+        "number": "#54",
+        "car": "2018 Chevrolet Corvette",
+        "classNumber": "CAMS #54",
+        "bestRaw": 84.909,
+        "bestPax": 72.002,
+        "rawTime": 84.909,
+        "indexedTime": 72.002,
+        "time": 84.909,
+        "runs": [
+          "88.270",
+          "87.000",
+          "84.909",
+          "92.584"
+        ]
+      },
+      {
+        "position": 17,
+        "rank": 17,
         "driver": "Mike Ansell",
         "class": "CAMS",
         "cls": "CAMS",
@@ -1806,31 +1985,35 @@
         "runs": [
           "91.851 +1",
           "88.313 DNF",
-          "86.738"
+          "86.738",
+          "87.568 +1"
         ]
       },
       {
-        "position": 16,
-        "rank": 16,
-        "driver": "Curt Hill",
+        "position": 18,
+        "rank": 18,
+        "driver": "JUSTIN SCHMELZER",
         "class": "CAMS",
         "cls": "CAMS",
-        "number": "#54",
-        "car": "2018 Chevrolet Corvette",
-        "classNumber": "CAMS #54",
-        "bestRaw": 87,
-        "bestPax": 73.776,
-        "rawTime": 87,
-        "indexedTime": 73.776,
-        "time": 87,
+        "number": "#81",
+        "car": "1996 Dodge Viper",
+        "classNumber": "CAMS #81",
+        "bestRaw": 87.181,
+        "bestPax": 73.929,
+        "rawTime": 87.181,
+        "indexedTime": 73.929,
+        "time": 87.181,
         "runs": [
-          "88.270",
-          "87.000"
+          "91.989 +1",
+          "87.924",
+          "70.627 RRN",
+          "88.211",
+          "87.181"
         ]
       },
       {
-        "position": 17,
-        "rank": 17,
+        "position": 19,
+        "rank": 19,
         "driver": "Tay Thomas",
         "class": "CAMS",
         "cls": "CAMS",
@@ -1845,32 +2028,56 @@
         "runs": [
           "92.049",
           "89.483 DNF",
-          "87.700"
+          "87.700",
+          "88.960"
         ]
       },
       {
-        "position": 18,
-        "rank": 18,
-        "driver": "JUSTIN SCHMELZER",
+        "position": 20,
+        "rank": 20,
+        "driver": "Nathan Poffenbarger",
         "class": "CAMS",
         "cls": "CAMS",
-        "number": "#81",
-        "car": "1996 Dodge Viper",
-        "classNumber": "CAMS #81",
-        "bestRaw": 87.924,
-        "bestPax": 74.559,
-        "rawTime": 87.924,
-        "indexedTime": 74.559,
-        "time": 87.924,
+        "number": "#18",
+        "car": "2000 Dodge Viper",
+        "classNumber": "CAMS #18",
+        "bestRaw": 91.015,
+        "bestPax": 77.18,
+        "rawTime": 91.015,
+        "indexedTime": 77.18,
+        "time": 91.015,
         "runs": [
-          "91.989 +1",
-          "87.924",
-          "70.627 RRN"
+          "100.401",
+          "103.467 +1",
+          "94.414 RRN",
+          "96.371 +1",
+          "91.015"
         ]
       },
       {
-        "position": 19,
-        "rank": 19,
+        "position": 21,
+        "rank": 21,
+        "driver": "Derek Koehn",
+        "class": "CAMS",
+        "cls": "CAMS",
+        "number": "#118",
+        "car": "Dodge",
+        "classNumber": "CAMS #118",
+        "bestRaw": 93.753,
+        "bestPax": 79.502,
+        "rawTime": 93.753,
+        "indexedTime": 79.502,
+        "time": 93.753,
+        "runs": [
+          "96.303",
+          "94.403",
+          "93.753",
+          "93.805"
+        ]
+      },
+      {
+        "position": 22,
+        "rank": 22,
         "driver": "Pedro Duran III",
         "class": "CAMS",
         "cls": "CAMS",
@@ -1886,63 +2093,8 @@
           "98.931 +3",
           "97.250 +2",
           "94.211 +1",
-          "62.316 RRN"
-        ]
-      },
-      {
-        "position": 20,
-        "rank": 20,
-        "driver": "Derek Koehn",
-        "class": "CAMS",
-        "cls": "CAMS",
-        "number": "#118",
-        "car": "Dodge",
-        "classNumber": "CAMS #118",
-        "bestRaw": 96.303,
-        "bestPax": 81.664,
-        "rawTime": 96.303,
-        "indexedTime": 81.664,
-        "time": 96.303,
-        "runs": [
-          "96.303"
-        ]
-      },
-      {
-        "position": 21,
-        "rank": 21,
-        "driver": "Nathan Poffenbarger",
-        "class": "CAMS",
-        "cls": "CAMS",
-        "number": "#18",
-        "car": "2000 Dodge Viper",
-        "classNumber": "CAMS #18",
-        "bestRaw": 100.401,
-        "bestPax": 85.14,
-        "rawTime": 100.401,
-        "indexedTime": 85.14,
-        "time": 100.401,
-        "runs": [
-          "100.401",
-          "103.467 +1",
-          "94.414 RRN"
-        ]
-      },
-      {
-        "position": 22,
-        "rank": 22,
-        "driver": "Chad Ryker",
-        "class": "CAMS",
-        "cls": "CAMS",
-        "number": "#178",
-        "car": "1966 Ford Cobra",
-        "classNumber": "CAMS #178",
-        "bestRaw": 112.142,
-        "bestPax": 95.096,
-        "rawTime": 112.142,
-        "indexedTime": 95.096,
-        "time": 112.142,
-        "runs": [
-          "111.142 +1"
+          "62.316 RRN",
+          "96.086"
         ]
       }
     ],
@@ -1956,14 +2108,16 @@
         "number": "#128",
         "car": "1970 Chevrolet Camaro",
         "classNumber": "CAMT #128",
-        "bestRaw": 82.976,
-        "bestPax": 68.455,
-        "rawTime": 82.976,
-        "indexedTime": 68.455,
-        "time": 82.976,
+        "bestRaw": 81.749,
+        "bestPax": 67.442,
+        "rawTime": 81.749,
+        "indexedTime": 67.442,
+        "time": 81.749,
         "runs": [
           "84.470 +1",
-          "82.976"
+          "82.976",
+          "81.749",
+          "81.242 +2"
         ]
       },
       {
@@ -1975,14 +2129,15 @@
         "number": "#669",
         "car": "1969 Chevrolet Camaro",
         "classNumber": "CAMT #669",
-        "bestRaw": 88.221,
-        "bestPax": 72.782,
-        "rawTime": 88.221,
-        "indexedTime": 72.782,
-        "time": 88.221,
+        "bestRaw": 86.644,
+        "bestPax": 71.481,
+        "rawTime": 86.644,
+        "indexedTime": 71.481,
+        "time": 86.644,
         "runs": [
           "88.426",
-          "88.221"
+          "88.221",
+          "86.644"
         ]
       },
       {
@@ -2003,46 +2158,52 @@
           "90.311",
           "88.629",
           "87.747 +2",
-          "87.920 RRN"
+          "87.920 RRN",
+          "89.172 +2",
+          "138.706",
+          "89.248 +2"
         ]
       },
       {
         "position": 4,
         "rank": 4,
-        "driver": "Chuck Wiltens",
-        "class": "CAMT",
-        "cls": "CAMT",
-        "number": "#214",
-        "car": "1967 Ford Mustang",
-        "classNumber": "CAMT #214",
-        "bestRaw": 102.318,
-        "bestPax": 84.412,
-        "rawTime": 102.318,
-        "indexedTime": 84.412,
-        "time": 102.318,
-        "runs": [
-          "104.513 DNF",
-          "102.318",
-          "115.809 DNF"
-        ]
-      },
-      {
-        "position": 5,
-        "rank": 5,
         "driver": "Kirk Lozada",
         "class": "CAMT",
         "cls": "CAMT",
         "number": "#89",
         "car": "1968 Chevrolet Chevelle",
         "classNumber": "CAMT #89",
-        "bestRaw": 112.59,
-        "bestPax": 92.886,
-        "rawTime": 112.59,
-        "indexedTime": 92.886,
-        "time": 112.59,
+        "bestRaw": 98.053,
+        "bestPax": 80.893,
+        "rawTime": 98.053,
+        "indexedTime": 80.893,
+        "time": 98.053,
         "runs": [
           "121.909",
-          "112.590"
+          "112.590",
+          "102.029",
+          "98.053"
+        ]
+      },
+      {
+        "position": 5,
+        "rank": 5,
+        "driver": "Chuck Wiltens",
+        "class": "CAMT",
+        "cls": "CAMT",
+        "number": "#214",
+        "car": "1967 Ford Mustang",
+        "classNumber": "CAMT #214",
+        "bestRaw": 101.277,
+        "bestPax": 83.553,
+        "rawTime": 101.277,
+        "indexedTime": 83.553,
+        "time": 101.277,
+        "runs": [
+          "104.513 DNF",
+          "102.318",
+          "115.809 DNF",
+          "101.277"
         ]
       }
     ],
@@ -2050,26 +2211,48 @@
       {
         "position": 1,
         "rank": 1,
+        "driver": "Da Chang",
+        "class": "CST",
+        "cls": "CST",
+        "number": "#63",
+        "car": "2009 Mazda Miata",
+        "classNumber": "CST #63",
+        "bestRaw": 83.874,
+        "bestPax": 69.783,
+        "rawTime": 83.874,
+        "indexedTime": 69.783,
+        "time": 83.874,
+        "runs": [
+          "86.417",
+          "84.904",
+          "85.424",
+          "83.874"
+        ]
+      },
+      {
+        "position": 2,
+        "rank": 2,
         "driver": "John Smith",
         "class": "CST",
         "cls": "CST",
         "number": "#119",
         "car": "2002 Honda S2000",
         "classNumber": "CST #119",
-        "bestRaw": 77.551,
-        "bestPax": 64.522,
-        "rawTime": 77.551,
-        "indexedTime": 64.522,
-        "time": 77.551,
+        "bestRaw": 83.993,
+        "bestPax": 69.882,
+        "rawTime": 83.993,
+        "indexedTime": 69.882,
+        "time": 83.993,
         "runs": [
           "86.134",
           "86.267 +2",
-          "77.551"
+          "84.626",
+          "83.993"
         ]
       },
       {
-        "position": 2,
-        "rank": 2,
+        "position": 3,
+        "rank": 3,
         "driver": "Ed Runnion",
         "class": "CST",
         "cls": "CST",
@@ -2083,27 +2266,9 @@
         "time": 84.56,
         "runs": [
           "84.899",
-          "84.560"
-        ]
-      },
-      {
-        "position": 3,
-        "rank": 3,
-        "driver": "Da Chang",
-        "class": "CST",
-        "cls": "CST",
-        "number": "#63",
-        "car": "2009 Mazda Miata",
-        "classNumber": "CST #63",
-        "bestRaw": 84.904,
-        "bestPax": 70.64,
-        "rawTime": 84.904,
-        "indexedTime": 70.64,
-        "time": 84.904,
-        "runs": [
-          "86.417",
-          "84.904",
-          "85.424"
+          "84.560",
+          "84.936 +1",
+          "97.938 DNF"
         ]
       },
       {
@@ -2115,15 +2280,16 @@
         "number": "#19",
         "car": "2002 Honda S2000",
         "classNumber": "CST #19",
-        "bestRaw": 85.391,
-        "bestPax": 71.045,
-        "rawTime": 85.391,
-        "indexedTime": 71.045,
-        "time": 85.391,
+        "bestRaw": 84.595,
+        "bestPax": 70.383,
+        "rawTime": 84.595,
+        "indexedTime": 70.383,
+        "time": 84.595,
         "runs": [
           "86.336",
           "86.064",
-          "85.391"
+          "85.391",
+          "84.595"
         ]
       },
       {
@@ -2135,14 +2301,16 @@
         "number": "#137",
         "car": "2022 Subaru BRZ",
         "classNumber": "CST #137",
-        "bestRaw": 87.195,
-        "bestPax": 72.546,
-        "rawTime": 87.195,
-        "indexedTime": 72.546,
-        "time": 87.195,
+        "bestRaw": 86.693,
+        "bestPax": 72.128,
+        "rawTime": 86.693,
+        "indexedTime": 72.128,
+        "time": 86.693,
         "runs": [
           "93.271 DNF",
-          "87.195"
+          "87.195",
+          "86.693",
+          "87.509"
         ]
       }
     ]
@@ -2154,7 +2322,7 @@
     "CST"
   ],
   "diagnostics": {
-    "sourceLineCount": 230,
+    "sourceLineCount": 286,
     "overallRows": 36,
     "paxRows": 36,
     "classGroups": 4,
@@ -2166,7 +2334,7 @@
     }
   },
   "rawCaptureDiagnostics": {
-    "sourceTextLength": 5686,
-    "generatedAt": "2026-07-04T16:56:28.118Z"
+    "sourceTextLength": 6118,
+    "generatedAt": "2026-07-04T17:59:32.802Z"
   }
 }
