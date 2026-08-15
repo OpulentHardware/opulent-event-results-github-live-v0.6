@@ -1,13 +1,13 @@
 {
   "status": "ok",
   "sourceUrl": "https://live.sfrautox.com/#N",
-  "updatedAt": "2026-08-15T06:41:05.032Z",
+  "updatedAt": "2026-08-15T07:15:44.892Z",
   "event": {
     "title": "2026 AAS #12 Live Results",
     "date": "2026-08-02",
     "participants": 77,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-08-15T06:41:05.032Z",
+    "updatedAt": "2026-08-15T07:15:44.892Z",
     "status": "ok"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "date": "2026-08-02",
     "participants": 77,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-08-15T06:41:05.032Z",
+    "updatedAt": "2026-08-15T07:15:44.892Z",
     "status": "ok"
   },
   "title": "2026 AAS #12 Live Results",
@@ -5162,6 +5162,6 @@
   },
   "rawCaptureDiagnostics": {
     "sourceTextLength": 13007,
-    "generatedAt": "2026-08-15T06:41:05.040Z"
+    "generatedAt": "2026-08-15T07:15:44.900Z"
   }
 }
