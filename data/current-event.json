@@ -1,13 +1,13 @@
 {
   "status": "ok",
   "sourceUrl": "https://live.sfrautox.com/#N",
-  "updatedAt": "2026-08-23T10:43:12.476Z",
+  "updatedAt": "2026-08-23T10:59:44.383Z",
   "event": {
     "title": "SFR Live Results",
     "date": "",
     "participants": null,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-08-23T10:43:12.476Z",
+    "updatedAt": "2026-08-23T10:59:44.383Z",
     "status": "ok"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "date": "",
     "participants": null,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-08-23T10:43:12.476Z",
+    "updatedAt": "2026-08-23T10:59:44.383Z",
     "status": "ok"
   },
   "title": "SFR Live Results",
@@ -34,6 +34,6 @@
   },
   "rawCaptureDiagnostics": {
     "sourceTextLength": 47,
-    "generatedAt": "2026-08-23T10:43:12.477Z"
+    "generatedAt": "2026-08-23T10:59:44.384Z"
   }
 }
