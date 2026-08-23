@@ -1,39 +1,39 @@
 {
   "status": "ok",
   "sourceUrl": "https://live.sfrautox.com/#N",
-  "updatedAt": "2026-08-23T15:26:43.024Z",
+  "updatedAt": "2026-08-23T15:45:53.944Z",
   "event": {
-    "title": "SFR Live Results",
-    "date": "",
-    "participants": null,
+    "title": "2026 SFRSCCA #09 Live Results",
+    "date": "2026-08-23",
+    "participants": 0,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-08-23T15:26:43.024Z",
+    "updatedAt": "2026-08-23T15:45:53.944Z",
     "status": "ok"
   },
   "meta": {
-    "title": "SFR Live Results",
-    "date": "",
-    "participants": null,
+    "title": "2026 SFRSCCA #09 Live Results",
+    "date": "2026-08-23",
+    "participants": 0,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-08-23T15:26:43.024Z",
+    "updatedAt": "2026-08-23T15:45:53.944Z",
     "status": "ok"
   },
-  "title": "SFR Live Results",
-  "date": "",
-  "participants": null,
+  "title": "2026 SFRSCCA #09 Live Results",
+  "date": "2026-08-23",
+  "participants": 0,
   "overall": [],
   "pax": [],
   "classes": {},
   "classOrder": [],
   "diagnostics": {
-    "sourceLineCount": 3,
+    "sourceLineCount": 22,
     "overallRows": 0,
     "paxRows": 0,
     "classGroups": 0,
     "classRows": {}
   },
   "rawCaptureDiagnostics": {
-    "sourceTextLength": 47,
-    "generatedAt": "2026-08-23T15:26:43.025Z"
+    "sourceTextLength": 444,
+    "generatedAt": "2026-08-23T15:45:53.945Z"
   }
 }
