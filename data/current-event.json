@@ -1,13 +1,13 @@
 {
   "status": "ok",
   "sourceUrl": "https://live.sfrautox.com/#N",
-  "updatedAt": "2026-09-06T20:39:31.560Z",
+  "updatedAt": "2026-09-06T22:21:32.755Z",
   "event": {
     "title": "2026 SFRSCCA #09 Live Results",
     "date": "2026-08-23",
     "participants": 129,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-09-06T20:39:31.560Z",
+    "updatedAt": "2026-09-06T22:21:32.755Z",
     "status": "ok"
   },
   "meta": {
@@ -15,7 +15,7 @@
     "date": "2026-08-23",
     "participants": 129,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-09-06T20:39:31.560Z",
+    "updatedAt": "2026-09-06T22:21:32.755Z",
     "status": "ok"
   },
   "title": "2026 SFRSCCA #09 Live Results",
@@ -8210,6 +8210,6 @@
   },
   "rawCaptureDiagnostics": {
     "sourceTextLength": 20939,
-    "generatedAt": "2026-09-06T20:39:31.570Z"
+    "generatedAt": "2026-09-06T22:21:32.767Z"
   }
 }
