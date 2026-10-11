@@ -1,39 +1,39 @@
 {
   "status": "ok",
   "sourceUrl": "https://live.sfrautox.com/#N",
-  "updatedAt": "2026-10-11T19:33:53.738Z",
+  "updatedAt": "2026-10-11T23:09:44.434Z",
   "event": {
     "title": "2026 SFRSCCA #11 Live Results",
     "date": "2026-10-11",
-    "participants": 73,
+    "participants": 107,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-10-11T19:33:53.738Z",
+    "updatedAt": "2026-10-11T23:09:44.434Z",
     "status": "ok"
   },
   "meta": {
     "title": "2026 SFRSCCA #11 Live Results",
     "date": "2026-10-11",
-    "participants": 73,
+    "participants": 107,
     "sourceUrl": "https://live.sfrautox.com/#N",
-    "updatedAt": "2026-10-11T19:33:53.738Z",
+    "updatedAt": "2026-10-11T23:09:44.434Z",
     "status": "ok"
   },
   "title": "2026 SFRSCCA #11 Live Results",
   "date": "2026-10-11",
-  "participants": 73,
+  "participants": 107,
   "overall": [],
   "pax": [],
   "classes": {},
   "classOrder": [],
   "diagnostics": {
-    "sourceLineCount": 618,
+    "sourceLineCount": 1021,
     "overallRows": 0,
     "paxRows": 0,
     "classGroups": 0,
     "classRows": {}
   },
   "rawCaptureDiagnostics": {
-    "sourceTextLength": 13300,
-    "generatedAt": "2026-10-11T19:33:53.740Z"
+    "sourceTextLength": 20104,
+    "generatedAt": "2026-10-11T23:09:44.440Z"
   }
 }
